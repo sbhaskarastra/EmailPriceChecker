@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14c89726e21e46e697428c3e0a959989" Name="Diagram1">
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Account" Width="1.5" PointX="6" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccountType" Width="1.5" PointX="3.75" PointY="70.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccrualDescription" Width="1.5" PointX="17" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccrualGroup" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccrualPayment" Width="1.5" PointX="19.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccrualPaymentType" Width="1.5" PointX="17" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.AccrualType" Width="1.5" PointX="17" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ApplicationRule" Width="1.5" PointX="9" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.BBGInterestRateDownloadSettings" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.BBGPriceDownloadSettings" Width="1.5" PointX="2.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Contact" Width="1.5" PointX="9" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Counterparty" Width="1.5" PointX="11.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CounterpartyCurrencyProperty" Width="1.5" PointX="14" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CounterpartyPropertyDescription" Width="1.5" PointX="11.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Country" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CountryOfRisk" Width="1.5" PointX="0.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CreditFundHolidays" Width="1.5" PointX="2.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CreditSpreadHistory" Width="1.5" PointX="5.25" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Currency" Width="1.5" PointX="11.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CurrencyExchangeRates" Width="1.5" PointX="8.25" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.CurrencyExchangeRatesTickers" Width="1.5" PointX="6" PointY="88.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.DataProvider" Width="1.5" PointX="0.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Email" Width="1.5" PointX="26" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailBwicFilter" Width="1.5" PointX="23.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailBwicMonitor" Width="1.5" PointX="26" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailBwicSecurityLatestPrice" Width="1.5" PointX="29" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailBwicSecurityPrice" Width="1.5" PointX="26.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailComponent" Width="1.5" PointX="26" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailComponents" Width="1.5" PointX="28.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailEventLog" Width="1.5" PointX="28.25" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailType" Width="1.5" PointX="23.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmailUser" Width="1.5" PointX="28.25" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmergingMarkets" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmergingMarketsGroup" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EmergingMarketsType" Width="1.5" PointX="0.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.EquityType" Width="1.5" PointX="9" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ExchangeHoliday" Width="1.5" PointX="8.25" PointY="85.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ExchangeHolidayLocation" Width="1.5" PointX="6" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FactorHistory" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FactorHistoryLog" Width="1.5" PointX="22" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundAccount" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundApplicationRule" Width="1.5" PointX="11.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundCommitment" Width="1.5" PointX="16.25" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundCommitmentLevel" Width="1.5" PointX="8.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundCommitmentPayReceive" Width="1.5" PointX="14" PointY="65.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundContact" Width="1.5" PointX="11.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundCurrencyProperty" Width="1.5" PointX="14" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundGav" Width="1.5" PointX="8.25" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundInvestor" Width="1.5" PointX="8.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundLeverage" Width="1.5" PointX="8.25" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundNav" Width="1.5" PointX="17" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundPerformanceCalculationType" Width="1.5" PointX="0.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundPerformanceSummary" Width="1.5" PointX="16.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundPosition" Width="1.5" PointX="8.25" PointY="60" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundProfitAndLoss" Width="1.5" PointX="8.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundProperty" Width="1.5" PointX="14.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundPropertyDescription" Width="1.5" PointX="12" PointY="62.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundRule" Width="1.5" PointX="11.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundRuleBreach" Width="1.5" PointX="13.5" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundRuleTotal" Width="1.5" PointX="13.5" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Funds" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundSummary" Width="1.5" PointX="8.25" PointY="72" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundTradeExtractionType" Width="1.5" PointX="21.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundTradeExtractionTypeContact" Width="1.5" PointX="21.5" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FundType" Width="1.5" PointX="3.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FXForwardRate" Width="1.5" PointX="26.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FxForwardRateTickers" Width="1.5" PointX="2.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.FXMaster" Width="1.5" PointX="14" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.HistoryAction" Width="1.5" PointX="19.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.HistoryStatus" Width="1.5" PointX="21.75" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.IndustryType" Width="1.5" PointX="0.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.InterestRateHistory" Width="1.5" PointX="28.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Investor" Width="1.5" PointX="6" PointY="67" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Issuer" Width="1.5" PointX="0.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.OperationsTrades" Width="1.5" PointX="14" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.PriceHistory" Width="1.5" PointX="28.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.PriceHistoryLog" Width="1.5" PointX="24" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.PriceHistoryReturns" Width="1.5" PointX="23.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RatingType" Width="1.5" PointX="9" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Rights" Width="1.5" PointX="9" PointY="75.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowDefaultCashflow" Width="1.5" PointX="7.5" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowDefaultInputParameter" Width="1.5" PointX="28.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowDefaultIsin" Width="1.5" PointX="5.25" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowDetail" Width="1.5" PointX="5.25" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowExecution" Width="1.5" PointX="5.25" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowExecutionRun" Width="1.5" PointX="7.5" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowFieldDescription" Width="1.5" PointX="6" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowFieldProperty" Width="1.5" PointX="8.25" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowInputParameter" Width="1.5" PointX="5.25" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowInputParameterDefaults" Width="1.5" PointX="5.25" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowInputParameterNightly" Width="1.5" PointX="5.25" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowIsinProperty" Width="1.5" PointX="11.25" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowIsinPropertyDescription" Width="1.5" PointX="9" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskCashflowResult" Width="1.5" PointX="13.75" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionSimulationType" Width="1.5" PointX="4.5" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTask" Width="1.5" PointX="6.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskCreditShiftRun" Width="1.5" PointX="24.25" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskExecutionType" Width="1.5" PointX="17" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskInputParameter" Width="1.5" PointX="6.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskInputParameterNightly" Width="1.5" PointX="21.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskInputParameterRun" Width="1.5" PointX="9" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskPortfolioDetail" Width="1.5" PointX="11.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskResult" Width="1.5" PointX="19.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskRun" Width="1.5" PointX="11.25" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskRunResult" Width="1.5" PointX="16.5" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetail" Width="1.5" PointX="13.5" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetailCreditShift" Width="1.5" PointX="30.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetailResult" Width="1.5" PointX="30.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskPool" Width="1.5" PointX="3" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskPoolDetail" Width="1.5" PointX="11.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskPoolDetailAmortisation" Width="1.5" PointX="5.25" PointY="84.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RiskPoolResult" Width="1.5" PointX="11.25" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Rules" Width="1.5" PointX="9" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.RuleType" Width="1.5" PointX="6.75" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Schedule" Width="1.5" PointX="21.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ScheduledCashFlow" Width="1.5" PointX="18.5" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ScheduledCashFlowHistory" Width="1.5" PointX="30.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ScheduleExecutionErrorLog" Width="1.5" PointX="26.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ScheduleExecutionQueue" Width="1.5" PointX="24" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMaster" Width="1.5" PointX="3" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterExchangeHolidayLocation" Width="1.5" PointX="8.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterGlobalEthicalStandard" Width="1.5" PointX="12" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterGlobalEthicalStandardFund" Width="1.5" PointX="14.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterGroup" Width="1.5" PointX="0.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterInstrument" Width="1.5" PointX="0.75" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterNotification" Width="1.5" PointX="5.25" PointY="75.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterRegion" Width="1.5" PointX="0.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterRestrictedList" Width="1.5" PointX="30.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterRiskPoolMapping" Width="1.5" PointX="5.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterSensitivityReport" Width="1.5" PointX="11.25" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterStrategy" Width="1.5" PointX="0.75" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SecurityMasterType" Width="1.5" PointX="0.75" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareClass" Width="1.5" PointX="19.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareClassPerformanceSummary" Width="1.5" PointX="21.5" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareSeries" Width="1.5" PointX="21.5" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareSeriesAmount" Width="1.5" PointX="23.75" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareSeriesInvestor" Width="1.5" PointX="23.75" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareSeriesPerformanceSummary" Width="1.5" PointX="26.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.ShareSeriesSummary" Width="1.5" PointX="23.75" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SubscriptionRedemption" Width="1.5" PointX="14" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.SubscriptionRedemptionType" Width="1.5" PointX="11.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.sysdiagrams" Width="1.5" PointX="29.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Task" Width="1.5" PointX="19.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TaskExecutionErrorLog" Width="1.5" PointX="29.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TaskExecutionQueue" Width="1.5" PointX="27" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TaskExecutionStatus" Width="1.5" PointX="21.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TaskGroup" Width="1.5" PointX="17.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TickerMapping" Width="1.5" PointX="30.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeBlueSky" Width="1.5" PointX="18.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeExtractionContact" Width="1.5" PointX="19.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeExtractionLog" Width="1.5" PointX="21.5" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeExtractionStatus" Width="1.5" PointX="14" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeExtractionType" Width="1.5" PointX="19.25" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeHistory" Width="1.5" PointX="32.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Trades" Width="1.5" PointX="16.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeType" Width="1.5" PointX="14" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.TradeTypeGroup" Width="1.5" PointX="11.75" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.UserRights" Width="1.5" PointX="11.25" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.Users" Width="1.5" PointX="3" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="AstraInfrastructureModel.UserStatus" Width="1.5" PointX="0.75" PointY="63.5" IsExpanded="true" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Account_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundAccount_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_AccrualDescription_AccrualGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_AccrualDescription_AccrualPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_AccrualPayment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_AccrualPaymentType_AccrualPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_AccrualType_AccrualPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Funds_AccrualPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundApplicationRule_ApplicationRule" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundContact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CounterpartyCurrencyProperty_Counterparty" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_Counterparty" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_StepInOrOutCounterparty" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_Counterparty" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_CounterpartyStepIn" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CounterpartyCurrencyProperty_CounterPartyPropertyDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CounterPartyCurrencyProperty_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmergingMarkets_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_CountryOfRisk" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CreditSpreadHistory_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CreditSpreadHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCurrencyProperty_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundNav_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FxMaster_CurrencyPrimary" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FxMaster_CurrencySecondary" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CurrencyExchangeRates_CurrencyExchangeRatesTickers" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_CurrencyExchangeRates_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_DataProvider" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Email_EmailType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailComponents_Email" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailUser_Email" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailBwicSecurityLatestPrice_EmailBwicSecurityPrice" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailComponents_EmailComponent" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailEventLog_EmailComponent" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmailUser_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_EmergingMarkets_EmergingMarketsGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_EmergingMarkets" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterSensitivityReport_EquityType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ExchangeHoliday_ExchangeHolidayLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterExchangeHolidayLocation_ExchangeHolidayLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FactorHistoryLog_Approver" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FactorHistoryLog_HistoryAction" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FactorHistoryLog_HistoryStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FactorHistoryLog_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundAccount_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundAccount_Trades" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundApplicationRule_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCommitemnt_FundCommitmentPayReceive" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCommitment_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCommitment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCommitmentLevel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundContact_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCurrencyProperty_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundCurrencyProperty_FundPropertyDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundGav_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundInvestor_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundInvestor_Investor" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundLeverage_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundNav_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundPerformanceSummary_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundPerformanceSummary_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundPosition_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundProfitAndLoss_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundProfitAndLoss_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundProperty_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundProperty_FundPropertyDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundRule_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundRule_FundRuleBreach" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundRuleTotal_FundRuleId" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FuneRule_Rule" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Funds_FundType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundSummary_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundTradeExtractionType_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundTradeExtractionTypeContact_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_Funds" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterGlobalEthicalStandardFund_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareClass_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundTradeExtractionType_TradeExtractionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundTradeExtractionTypeContact_TradeExtractionContact" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_FundTradeExtractionTypeContact_TradeExtractionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_PriceHistoryLog_HistoryAction" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_PriceHistoryLog_HistoryStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_IndustryType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesInvestor_Investor" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_Issuer" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_Trades" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_TradeType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_OperationsTrades_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_OperationsTrade" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_PriceHistoryLog_Approver" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_PriceHistoryLog_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterSensitivityReport_RatingType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_UserRights_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskcashflowDefaultCashflow_RiskcashflowDefaultIsin" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowDefaultIsin_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowDetail_RiskCashflowExecutionRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowDetail_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowExecution_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowExecutionRun_RiskCashflowExecution" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowExecutionRun_RiskCashflowInputParameter" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowResult_RiskCashflowExecutionRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowFieldProperty_RiskCashflowFieldDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowFieldProperty_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowInputParameter_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowInputParameterDefaults_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowInputParameterNightly_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowIsinProperty_RiskCashflowIsinPropertyDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowIsinProperty_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskCashflowResult_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameter_RiskExecutionSimulationType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameterNightly_RiskExecutionSimulationType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameterRun_RiskExecutionTask" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskCreditShiftRun_RiskExecutionTaskInputParameterRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskCreditShiftRun_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskResult_RiskExecutionTaskExecutionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskRunResult_RiskExecutionTaskExecutionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameter_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameterRun_RiskExecutionTaskInputParameter" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskInputParameterNightly_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskPortfolioDetail_RiskExecutionTaskInputParameterRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskResult_RiskExecutionTaskInputParameterRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskRun_RiskExecutionTaskInputParameterRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskPoolResult_RiskExecutionTaskInputParameterRunId" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskPortfolioDetail_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskRunResult_RiskExecutionTaskRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskExecutionTaskValuationRunDetail_RiskExecutionTaskRun" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskPoolDetail_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskPoolDetailAmortisation_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterRiskPoolMapping_RiskPool" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_RiskPoolDetail_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Rules_RuleType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Schedule_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ScheduleExecutionQueue_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trade_ScheduledCashFlow" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ScheduleExecutionErrorLog_ScheduleExecutionQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ScheduleExecutionQueue_TaskExecutionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_SecurityMasterGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_SecurityMasterInstrument" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_SecurityMasterRegion" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_SecurityMasterStrategy" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMaster_SecurityMasterType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterExchangeHolidayLocation_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterNotification_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterRiskPoolMapping_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterSensitivityReport_SecurityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SecurityMasterGlobalEthicalStandardFund_SecurityMasterGlobalEthicalStandard" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareClass_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareClassPerformanceSummary_ShareSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeries_ShareClass" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeries_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesAmount_ShareSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesInvestor_ShareSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesPerformanceSummary_ShareSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesSummary_ShareSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesAmount_ApprovedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesAmount_InsertedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_ShareSeriesPerformanceSummary_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SubscriptionRedemption_SubscriptionRedemptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_SubscriptionRedemption_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Task_TraskGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TaskExecutionQueue_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TaskExecutionErrorLog_TaskExecutionQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TaskExecutionQueue_TaskExecutionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TradeBlueSky_Trades" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TradeBlueSky_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trade_TradeExtractionLog" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trade_TradeExtractionType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_TradeExtractionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_TradeType" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Trades_UserOperations" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_TradeType_TradeTypeGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_UserRights_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.FK_Users_UserStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.EmailBwicMonitorFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="AstraInfrastructureModel.TradeSubscriptionRedemption" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

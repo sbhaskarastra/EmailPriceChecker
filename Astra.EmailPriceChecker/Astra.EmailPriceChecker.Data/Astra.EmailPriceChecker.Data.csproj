@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84C36F2B-11AC-4641-9D08-C7940D38B82E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Astra.EmailPriceChecker.Data</RootNamespace>
+    <AssemblyName>Astra.EmailPriceChecker.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataRepository.cs" />
+    <Compile Include="Model\Account.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccountType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccrualDescription.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccrualGroup.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccrualPayment.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccrualPaymentType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccrualType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ApplicationRule.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AstraInfrastructureContext.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AstraInfrastructureContext.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AstraInfrastructureContext.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AstraInfrastructureContext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AstraInfrastructureContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BBGInterestRateDownloadSettings.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BBGPriceDownloadSettings.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Contact.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Counterparty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CounterpartyCurrencyProperty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CounterpartyPropertyDescription.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Country.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CountryOfRisk.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CreditFundHolidays.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CreditSpreadHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Currency.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CurrencyExchangeRates.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CurrencyExchangeRatesTickers.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataProvider.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Email.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailBwicFilter.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailBwicMonitor.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailBwicSecurityLatestPrice.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailBwicSecurityPrice.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailComponent.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailComponents.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailEventLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmailUser.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmergingMarkets.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmergingMarketsGroup.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmergingMarketsType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EquityType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ExchangeHoliday.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ExchangeHolidayLocation.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FactorHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FactorHistoryLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundAccount.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundApplicationRule.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundCommitment.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundCommitmentLevel.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundCommitmentPayReceive.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundContact.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundCurrencyProperty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundGav.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundInvestor.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundLeverage.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundNav.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundPerformanceCalculationType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundPerformanceSummary.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundPosition.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundProfitAndLoss.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundProperty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundPropertyDescription.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundRule.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundRuleBreach.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundRuleTotal.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Funds.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundSummary.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundTradeExtractionType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundTradeExtractionTypeContact.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FundType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FXForwardRate.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FxForwardRateTickers.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FXMaster.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\HistoryAction.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\HistoryStatus.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\IndustryType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\InterestRateHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Investor.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Issuer.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\OperationsTrades.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PriceHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PriceHistoryLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PriceHistoryReturns.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RatingType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Rights.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowDefaultCashflow.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowDefaultInputParameter.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowDefaultIsin.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowDetail.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowExecution.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowExecutionRun.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowFieldDescription.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowFieldProperty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowInputParameter.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowInputParameterDefaults.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowInputParameterNightly.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowIsinProperty.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowIsinPropertyDescription.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskCashflowResult.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionSimulationType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTask.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskCreditShiftRun.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskExecutionType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskInputParameter.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskInputParameterNightly.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskInputParameterRun.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskPortfolioDetail.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskResult.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskRun.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskRunResult.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskValuationRunDetail.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskValuationRunDetailCreditShift.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskExecutionTaskValuationRunDetailResult.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskPool.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskPoolDetail.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskPoolDetailAmortisation.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RiskPoolResult.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Rules.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RuleType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Schedule.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ScheduledCashFlow.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ScheduledCashFlowHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ScheduleExecutionErrorLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ScheduleExecutionQueue.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMaster.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterExchangeHolidayLocation.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterGlobalEthicalStandard.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterGlobalEthicalStandardFund.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterGroup.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterInstrument.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterNotification.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterRegion.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterRestrictedList.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterRiskPoolMapping.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterSensitivityReport.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterStrategy.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SecurityMasterType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareClass.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareClassPerformanceSummary.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareSeries.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareSeriesAmount.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareSeriesInvestor.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareSeriesPerformanceSummary.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ShareSeriesSummary.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SubscriptionRedemption.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SubscriptionRedemptionType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sysdiagrams.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Task.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaskExecutionErrorLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaskExecutionQueue.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaskExecutionStatus.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaskGroup.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TickerMapping.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeBlueSky.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeExtractionContact.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeExtractionLog.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeExtractionStatus.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeExtractionType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeHistory.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Trades.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeType.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradeTypeGroup.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\UserRights.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Users.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\UserStatus.cs">
+      <DependentUpon>AstraInfrastructureContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Model\AstraInfrastructureContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AstraInfrastructureContext.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\AstraInfrastructureContext.edmx.diagram">
+      <DependentUpon>AstraInfrastructureContext.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Model\AstraInfrastructureContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AstraInfrastructureContext.edmx</DependentUpon>
+      <LastGenOutput>AstraInfrastructureContext.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\AstraInfrastructureContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AstraInfrastructureContext.edmx</DependentUpon>
+      <LastGenOutput>AstraInfrastructureContext.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

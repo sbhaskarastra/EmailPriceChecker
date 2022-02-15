@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker", "Astra.EmailPriceChecker\Astra.EmailPriceChecker.csproj", "{8B6BCBE2-9CBB-4421-96CC-FC1B9A3C2A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.Console", "Astra.EmailPriceChecker.Console\Astra.EmailPriceChecker.Console.csproj", "{B5D577B2-B151-44F0-96ED-CF0C0534CA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.Data", "Astra.EmailPriceChecker.Data\Astra.EmailPriceChecker.Data.csproj", "{84C36F2B-11AC-4641-9D08-C7940D38B82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.EmailManager", "Astra.EmailPriceChecker.EmailManager\Astra.EmailPriceChecker.EmailManager.csproj", "{E7BEDB01-7798-4750-81CA-6FBF6E01DF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.Logger", "Astra.EmailPriceChecker.Logger\Astra.EmailPriceChecker.Logger.csproj", "{0B43C3AF-FD71-4BC8-9D58-618871976F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.Manager", "Astra.EmailPriceChecker.Manager\Astra.EmailPriceChecker.Manager.csproj", "{C175BDAA-FBC0-4A80-BFBD-EF0D32B0E28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astra.EmailPriceChecker.Service", "Astra.EmailPriceChecker.Service\Astra.EmailPriceChecker.Service.csproj", "{8FA423F9-F358-4377-889B-6A0036AAAC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6BCBE2-9CBB-4421-96CC-FC1B9A3C2A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6BCBE2-9CBB-4421-96CC-FC1B9A3C2A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6BCBE2-9CBB-4421-96CC-FC1B9A3C2A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6BCBE2-9CBB-4421-96CC-FC1B9A3C2A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D577B2-B151-44F0-96ED-CF0C0534CA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D577B2-B151-44F0-96ED-CF0C0534CA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D577B2-B151-44F0-96ED-CF0C0534CA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D577B2-B151-44F0-96ED-CF0C0534CA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C36F2B-11AC-4641-9D08-C7940D38B82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C36F2B-11AC-4641-9D08-C7940D38B82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C36F2B-11AC-4641-9D08-C7940D38B82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C36F2B-11AC-4641-9D08-C7940D38B82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BEDB01-7798-4750-81CA-6FBF6E01DF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BEDB01-7798-4750-81CA-6FBF6E01DF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BEDB01-7798-4750-81CA-6FBF6E01DF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BEDB01-7798-4750-81CA-6FBF6E01DF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B43C3AF-FD71-4BC8-9D58-618871976F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B43C3AF-FD71-4BC8-9D58-618871976F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B43C3AF-FD71-4BC8-9D58-618871976F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B43C3AF-FD71-4BC8-9D58-618871976F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C175BDAA-FBC0-4A80-BFBD-EF0D32B0E28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C175BDAA-FBC0-4A80-BFBD-EF0D32B0E28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C175BDAA-FBC0-4A80-BFBD-EF0D32B0E28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C175BDAA-FBC0-4A80-BFBD-EF0D32B0E28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA423F9-F358-4377-889B-6A0036AAAC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA423F9-F358-4377-889B-6A0036AAAC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA423F9-F358-4377-889B-6A0036AAAC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA423F9-F358-4377-889B-6A0036AAAC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1727C468-9D9D-4D6F-BA80-50DBB9A55D2C}
+	EndGlobalSection
+EndGlobal
