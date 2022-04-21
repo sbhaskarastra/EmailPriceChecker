@@ -1,0 +1,11 @@
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\Astra.EmailPriceChecker.Data.dll.config
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\Astra.EmailPriceChecker.Data.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\Astra.EmailPriceChecker.Data.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\EntityFramework.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\EntityFramework.xml
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\obj\Release\Astra.EmailPriceChecker.Data.csproj.CoreCompileInputs.cache
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\obj\Release\Astra.EmailPriceChecker.Data.csproj.CopyComplete
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\obj\Release\Astra.EmailPriceChecker.Data.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Data\obj\Release\Astra.EmailPriceChecker.Data.pdb

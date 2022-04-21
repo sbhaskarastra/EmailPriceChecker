@@ -1,0 +1,2164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AstraInfrastructureModelStoreContainer" CdmEntityContainer="AstraInfrastructureContext">
+    <EntitySetMapping Name="Account">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AccountTypeId" ColumnName="AccountTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccountType">
+        <MappingFragment StoreEntitySet="AccountType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccrualDescription">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccrualDescription">
+        <MappingFragment StoreEntitySet="AccrualDescription">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AccrualGroupId" ColumnName="AccrualGroupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccrualGroup">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccrualGroup">
+        <MappingFragment StoreEntitySet="AccrualGroup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccrualPayment">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccrualPayment">
+        <MappingFragment StoreEntitySet="AccrualPayment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="AccrualDescriptionId" ColumnName="AccrualDescriptionId" />
+          <ScalarProperty Name="AccrualTypeId" ColumnName="AccrualTypeId" />
+          <ScalarProperty Name="AccrualPaymentTypeId" ColumnName="AccrualPaymentTypeId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AccrualPaymentDate" ColumnName="AccrualPaymentDate" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertById" ColumnName="InsertById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccrualPaymentType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccrualPaymentType">
+        <MappingFragment StoreEntitySet="AccrualPaymentType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PaymentDirection" ColumnName="PaymentDirection" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccrualType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.AccrualType">
+        <MappingFragment StoreEntitySet="AccrualType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ApplicationRule">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ApplicationRule">
+        <MappingFragment StoreEntitySet="ApplicationRule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BBGInterestRateDownloadSettings">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.BBGInterestRateDownloadSettings">
+        <MappingFragment StoreEntitySet="BBGInterestRateDownloadSettings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BBGPriceDownloadSettings">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.BBGPriceDownloadSettings">
+        <MappingFragment StoreEntitySet="BBGPriceDownloadSettings">
+          <ScalarProperty Name="BloombergTicker" ColumnName="BloombergTicker" />
+          <ScalarProperty Name="ScheduledDownloadTime" ColumnName="ScheduledDownloadTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Counterparty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Counterparty">
+        <MappingFragment StoreEntitySet="Counterparty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LegalName" ColumnName="LegalName" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="DTCCNumber" ColumnName="DTCCNumber" />
+          <ScalarProperty Name="DTCNumber" ColumnName="DTCNumber" />
+          <ScalarProperty Name="DTCSubNumber" ColumnName="DTCSubNumber" />
+          <ScalarProperty Name="EuroClearNumber" ColumnName="EuroClearNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CounterpartyCurrencyProperty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CounterpartyCurrencyProperty">
+        <MappingFragment StoreEntitySet="CounterpartyCurrencyProperty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CounterpartyId" ColumnName="CounterpartyId" />
+          <ScalarProperty Name="CounterpartyPropertyDescriptionId" ColumnName="CounterpartyPropertyDescriptionId" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CounterpartyPropertyDescription">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CounterpartyPropertyDescription">
+        <MappingFragment StoreEntitySet="CounterpartyPropertyDescription">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TwoLetterISOCode" ColumnName="TwoLetterISOCode" />
+          <ScalarProperty Name="ThreeLetterISOCode" ColumnName="ThreeLetterISOCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CountryOfRisk">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CountryOfRisk">
+        <MappingFragment StoreEntitySet="CountryOfRisk">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditFundHolidays">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CreditFundHolidays">
+        <MappingFragment StoreEntitySet="CreditFundHolidays">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="HolidayType" ColumnName="HolidayType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditSpreadHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CreditSpreadHistory">
+        <MappingFragment StoreEntitySet="CreditSpreadHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="CreditSpread" ColumnName="CreditSpread" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Currency">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Currency">
+        <MappingFragment StoreEntitySet="Currency">
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurrencyExchangeRates">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CurrencyExchangeRates">
+        <MappingFragment StoreEntitySet="CurrencyExchangeRates">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TickerId" ColumnName="TickerId" />
+          <ScalarProperty Name="ExchangeRateDate" ColumnName="ExchangeRateDate" />
+          <ScalarProperty Name="CloseExchangeRate" ColumnName="CloseExchangeRate" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="UpdateDateTime" ColumnName="UpdateDateTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurrencyExchangeRatesTickers">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.CurrencyExchangeRatesTickers">
+        <MappingFragment StoreEntitySet="CurrencyExchangeRatesTickers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="TickerFromCurrency" ColumnName="TickerFromCurrency" />
+          <ScalarProperty Name="TickerToCurrency" ColumnName="TickerToCurrency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataProvider">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.DataProvider">
+        <MappingFragment StoreEntitySet="DataProvider">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Email">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Email">
+        <MappingFragment StoreEntitySet="Email">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="EmailTypeId" ColumnName="EmailTypeId" />
+          <ScalarProperty Name="XsdPath" ColumnName="XsdPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailBwicFilter">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailBwicFilter">
+        <MappingFragment StoreEntitySet="EmailBwicFilter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Filter" ColumnName="Filter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailBwicMonitor">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailBwicMonitor">
+        <MappingFragment StoreEntitySet="EmailBwicMonitor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailBwicSecurityLatestPrice">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailBwicSecurityLatestPrice">
+        <MappingFragment StoreEntitySet="EmailBwicSecurityLatestPrice">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmailBwicSecurityPriceId" ColumnName="EmailBwicSecurityPriceId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailBwicSecurityPrice">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailBwicSecurityPrice">
+        <MappingFragment StoreEntitySet="EmailBwicSecurityPrice">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="OriginalLine" ColumnName="OriginalLine" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailComponent">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailComponent">
+        <MappingFragment StoreEntitySet="EmailComponent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmailOrder" ColumnName="EmailOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailComponents">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailComponents">
+        <MappingFragment StoreEntitySet="EmailComponents">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="EmailComponentId" ColumnName="EmailComponentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailEventLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailEventLog">
+        <MappingFragment StoreEntitySet="EmailEventLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmailComponentId" ColumnName="EmailComponentId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="DateProcessed" ColumnName="DateProcessed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailType">
+        <MappingFragment StoreEntitySet="EmailType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailUser">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmailUser">
+        <MappingFragment StoreEntitySet="EmailUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmergingMarkets">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmergingMarkets">
+        <MappingFragment StoreEntitySet="EmergingMarkets">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmergingMarketsGroupId" ColumnName="EmergingMarketsGroupId" />
+          <ScalarProperty Name="CountryISOCode" ColumnName="CountryISOCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmergingMarketsGroup">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmergingMarketsGroup">
+        <MappingFragment StoreEntitySet="EmergingMarketsGroup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmergingMarketsType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EmergingMarketsType">
+        <MappingFragment StoreEntitySet="EmergingMarketsType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EquityType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.EquityType">
+        <MappingFragment StoreEntitySet="EquityType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExchangeHoliday">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ExchangeHoliday">
+        <MappingFragment StoreEntitySet="ExchangeHoliday">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ExchangeHolidayLocationId" ColumnName="ExchangeHolidayLocationId" />
+          <ScalarProperty Name="HolidayDate" ColumnName="HolidayDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExchangeHolidayLocation">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ExchangeHolidayLocation">
+        <MappingFragment StoreEntitySet="ExchangeHolidayLocation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FactorHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FactorHistory">
+        <MappingFragment StoreEntitySet="FactorHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="FactorDate" ColumnName="FactorDate" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="ImpliedFactor" ColumnName="ImpliedFactor" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FactorHistoryLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FactorHistoryLog">
+        <MappingFragment StoreEntitySet="FactorHistoryLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="FactorDate" ColumnName="FactorDate" />
+          <ScalarProperty Name="HistoryActionId" ColumnName="HistoryActionId" />
+          <ScalarProperty Name="HistoryStatusId" ColumnName="HistoryStatusId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundAccount">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundAccount">
+        <MappingFragment StoreEntitySet="FundAccount">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundApplicationRule">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundApplicationRule">
+        <MappingFragment StoreEntitySet="FundApplicationRule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="ApplicationRuleId" ColumnName="ApplicationRuleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundCommitment">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundCommitment">
+        <MappingFragment StoreEntitySet="FundCommitment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PayReceive" ColumnName="PayReceive" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundCommitmentLevel">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundCommitmentLevel">
+        <MappingFragment StoreEntitySet="FundCommitmentLevel">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="InsertDatetime" ColumnName="InsertDatetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundCommitmentPayReceive">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundCommitmentPayReceive">
+        <MappingFragment StoreEntitySet="FundCommitmentPayReceive">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundContact">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundContact">
+        <MappingFragment StoreEntitySet="FundContact">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundCurrencyProperty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundCurrencyProperty">
+        <MappingFragment StoreEntitySet="FundCurrencyProperty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="FundPropertyDescriptionId" ColumnName="FundPropertyDescriptionId" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundGav">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundGav">
+        <MappingFragment StoreEntitySet="FundGav">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="GavDate" ColumnName="GavDate" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="Expenses" ColumnName="Expenses" />
+          <ScalarProperty Name="Gav" ColumnName="Gav" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="Accrual" ColumnName="Accrual" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundInvestor">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundInvestor">
+        <MappingFragment StoreEntitySet="FundInvestor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="InvestmentAmount" ColumnName="InvestmentAmount" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundLeverage">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundLeverage">
+        <MappingFragment StoreEntitySet="FundLeverage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="FundLeverageDate" ColumnName="FundLeverageDate" />
+          <ScalarProperty Name="BondTotal" ColumnName="BondTotal" />
+          <ScalarProperty Name="CdsTotal" ColumnName="CdsTotal" />
+          <ScalarProperty Name="CdsInterestTotal" ColumnName="CdsInterestTotal" />
+          <ScalarProperty Name="FxForwardTotal" ColumnName="FxForwardTotal" />
+          <ScalarProperty Name="FxForwardQuantityTotal" ColumnName="FxForwardQuantityTotal" />
+          <ScalarProperty Name="FundNav" ColumnName="FundNav" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundNav">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundNav">
+        <MappingFragment StoreEntitySet="FundNav">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="NavDate" ColumnName="NavDate" />
+          <ScalarProperty Name="Nav" ColumnName="Nav" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundPerformanceCalculationType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundPerformanceCalculationType">
+        <MappingFragment StoreEntitySet="FundPerformanceCalculationType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundPerformanceSummary">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundPerformanceSummary">
+        <MappingFragment StoreEntitySet="FundPerformanceSummary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="SummaryDate" ColumnName="SummaryDate" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+          <ScalarProperty Name="FundNav" ColumnName="FundNav" />
+          <ScalarProperty Name="FundNavPerShare" ColumnName="FundNavPerShare" />
+          <ScalarProperty Name="FundGav" ColumnName="FundGav" />
+          <ScalarProperty Name="FundGavPerShare" ColumnName="FundGavPerShare" />
+          <ScalarProperty Name="CrystalisedPerfromanceAmount" ColumnName="CrystalisedPerfromanceAmount" />
+          <ScalarProperty Name="UncrystalisedPerfromanceAmount" ColumnName="UncrystalisedPerfromanceAmount" />
+          <ScalarProperty Name="CrystalisedPerfromancePerShare" ColumnName="CrystalisedPerfromancePerShare" />
+          <ScalarProperty Name="UncrystalisedPerfromancePerShare" ColumnName="UncrystalisedPerfromancePerShare" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+          <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundPosition">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundPosition">
+        <MappingFragment StoreEntitySet="FundPosition">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="PositionDate" ColumnName="PositionDate" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="FundPosition1" ColumnName="FundPosition" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="PrincipalIncome" ColumnName="PrincipalIncome" />
+          <ScalarProperty Name="PrincipalInterest" ColumnName="PrincipalInterest" />
+          <ScalarProperty Name="PrincipalTotal" ColumnName="PrincipalTotal" />
+          <ScalarProperty Name="DailyChange" ColumnName="DailyChange" />
+          <ScalarProperty Name="SingleDayCarry" ColumnName="SingleDayCarry" />
+          <ScalarProperty Name="Principal_G_L_" ColumnName="Principal(G/L)" />
+          <ScalarProperty Name="MarkToMarket" ColumnName="MarkToMarket" />
+          <ScalarProperty Name="Fx" ColumnName="Fx" />
+          <ScalarProperty Name="Trading" ColumnName="Trading" />
+          <ScalarProperty Name="Unexplained" ColumnName="Unexplained" />
+          <ScalarProperty Name="PrincipalReceived" ColumnName="PrincipalReceived" />
+          <ScalarProperty Name="InterestReceived" ColumnName="InterestReceived" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="FxRate" ColumnName="FxRate" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="TradeType" ColumnName="TradeType" />
+          <ScalarProperty Name="CurrentFactor" ColumnName="CurrentFactor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundProfitAndLoss">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundProfitAndLoss">
+        <MappingFragment StoreEntitySet="FundProfitAndLoss">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="SecurityId" ColumnName="SecurityId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="FxRate" ColumnName="FxRate" />
+          <ScalarProperty Name="NotionalLocalTotal" ColumnName="NotionalLocalTotal" />
+          <ScalarProperty Name="CashLocalTotal" ColumnName="CashLocalTotal" />
+          <ScalarProperty Name="NotionalTotal" ColumnName="NotionalTotal" />
+          <ScalarProperty Name="CashTotal" ColumnName="CashTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="LocalTotal" ColumnName="LocalTotal" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundProperty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundProperty">
+        <MappingFragment StoreEntitySet="FundProperty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="FundPropertyDescriptionId" ColumnName="FundPropertyDescriptionId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundPropertyDescription">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundPropertyDescription">
+        <MappingFragment StoreEntitySet="FundPropertyDescription">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundRule">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundRule">
+        <MappingFragment StoreEntitySet="FundRule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="RuleId" ColumnName="RuleId" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundRuleBreach">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundRuleBreach">
+        <MappingFragment StoreEntitySet="FundRuleBreach">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundRuleId" ColumnName="FundRuleId" />
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="Suppressed" ColumnName="Suppressed" />
+          <ScalarProperty Name="SuppressedByUserId" ColumnName="SuppressedByUserId" />
+          <ScalarProperty Name="Reviewed" ColumnName="Reviewed" />
+          <ScalarProperty Name="ReviewedByUserId" ColumnName="ReviewedByUserId" />
+          <ScalarProperty Name="BreachPercentage" ColumnName="BreachPercentage" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundRuleTotal">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundRuleTotal">
+        <MappingFragment StoreEntitySet="FundRuleTotal">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundRuleId" ColumnName="FundRuleId" />
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="GavAmount" ColumnName="GavAmount" />
+          <ScalarProperty Name="FundAmount" ColumnName="FundAmount" />
+          <ScalarProperty Name="PercentageAmount" ColumnName="PercentageAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Funds">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Funds">
+        <MappingFragment StoreEntitySet="Funds">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="LegalName" ColumnName="LegalName" />
+          <ScalarProperty Name="DbAccountNumber" ColumnName="DbAccountNumber" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="FundTypeId" ColumnName="FundTypeId" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="FundPerformanceCalculationTypeId" ColumnName="FundPerformanceCalculationTypeId" />
+          <ScalarProperty Name="MarginCallThreshold" ColumnName="MarginCallThreshold" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundSummary">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundSummary">
+        <MappingFragment StoreEntitySet="FundSummary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+          <ScalarProperty Name="InceptionDate" ColumnName="InceptionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundTradeExtractionType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundTradeExtractionType">
+        <MappingFragment StoreEntitySet="FundTradeExtractionType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="TradeExtractionTypeId" ColumnName="TradeExtractionTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundTradeExtractionTypeContact">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundTradeExtractionTypeContact">
+        <MappingFragment StoreEntitySet="FundTradeExtractionTypeContact">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="TradeExtractionTypeId" ColumnName="TradeExtractionTypeId" />
+          <ScalarProperty Name="TradeExtractionContactId" ColumnName="TradeExtractionContactId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FundType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FundType">
+        <MappingFragment StoreEntitySet="FundType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FXForwardRate">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FXForwardRate">
+        <MappingFragment StoreEntitySet="FXForwardRate">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="FxForwardRateDate" ColumnName="FxForwardRateDate" />
+          <ScalarProperty Name="AskPrice" ColumnName="AskPrice" />
+          <ScalarProperty Name="BidPrice" ColumnName="BidPrice" />
+          <ScalarProperty Name="DaysToMaturity" ColumnName="DaysToMaturity" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="UpdateDateTime" ColumnName="UpdateDateTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FxForwardRateTickers">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FxForwardRateTickers">
+        <MappingFragment StoreEntitySet="FxForwardRateTickers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FXMaster">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.FXMaster">
+        <MappingFragment StoreEntitySet="FXMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PrimaryCurrency" ColumnName="PrimaryCurrency" />
+          <ScalarProperty Name="SecondaryCurrency" ColumnName="SecondaryCurrency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryAction">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.HistoryAction">
+        <MappingFragment StoreEntitySet="HistoryAction">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryStatus">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.HistoryStatus">
+        <MappingFragment StoreEntitySet="HistoryStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IndustryType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.IndustryType">
+        <MappingFragment StoreEntitySet="IndustryType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InterestRateHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.InterestRateHistory">
+        <MappingFragment StoreEntitySet="InterestRateHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PriceDate" ColumnName="PriceDate" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Investor">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Investor">
+        <MappingFragment StoreEntitySet="Investor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BlueSkyRegion" ColumnName="BlueSkyRegion" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Issuer">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Issuer">
+        <MappingFragment StoreEntitySet="Issuer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Issuer1" ColumnName="Issuer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperationsTrades">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.OperationsTrades">
+        <MappingFragment StoreEntitySet="OperationsTrades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="BuySell" ColumnName="BuySell" />
+          <ScalarProperty Name="TradeDate" ColumnName="TradeDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="SettlementDate" ColumnName="SettlementDate" />
+          <ScalarProperty Name="SettlementType" ColumnName="SettlementType" />
+          <ScalarProperty Name="CounterpartySalesContact" ColumnName="CounterpartySalesContact" />
+          <ScalarProperty Name="StepInorOutCpty" ColumnName="StepInorOutCpty" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CDSSpread" ColumnName="CDSSpread" />
+          <ScalarProperty Name="TradeFlat" ColumnName="TradeFlat" />
+          <ScalarProperty Name="FeeSettleDate" ColumnName="FeeSettleDate" />
+          <ScalarProperty Name="RecapConfirmed" ColumnName="RecapConfirmed" />
+          <ScalarProperty Name="CMBSConvention" ColumnName="CMBSConvention" />
+          <ScalarProperty Name="InterestCap" ColumnName="InterestCap" />
+          <ScalarProperty Name="CapType" ColumnName="CapType" />
+          <ScalarProperty Name="StepUpApplicable" ColumnName="StepUpApplicable" />
+          <ScalarProperty Name="DRDApplicable" ColumnName="DRDApplicable" />
+          <ScalarProperty Name="AdditionalICE" ColumnName="AdditionalICE" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="LocalNetAmount" ColumnName="LocalNetAmount" />
+          <ScalarProperty Name="BaseNetAmount" ColumnName="BaseNetAmount" />
+          <ScalarProperty Name="SettlementAmount" ColumnName="SettlementAmount" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="DeliveryType" ColumnName="DeliveryType" />
+          <ScalarProperty Name="OperationsId" ColumnName="OperationsId" />
+          <ScalarProperty Name="TradeTypeId" ColumnName="TradeTypeId" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="CounterPartyId" ColumnName="CounterPartyId" />
+          <ScalarProperty Name="StepInOrOutCounterPartyId" ColumnName="StepInOrOutCounterPartyId" />
+          <ScalarProperty Name="AccrueFromDate" ColumnName="AccrueFromDate" />
+          <ScalarProperty Name="RecapConfirmedUpdateDateTime" ColumnName="RecapConfirmedUpdateDateTime" />
+          <ScalarProperty Name="TradeCreatedDateTime" ColumnName="TradeCreatedDateTime" />
+          <ScalarProperty Name="TradeCancelledDateTime" ColumnName="TradeCancelledDateTime" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="InitialMarginPercentage" ColumnName="InitialMarginPercentage" />
+          <ScalarProperty Name="InitialMarginAmount" ColumnName="InitialMarginAmount" />
+          <ScalarProperty Name="FXRate" ColumnName="FXRate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.PriceHistory">
+        <MappingFragment StoreEntitySet="PriceHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceHistoryLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.PriceHistoryLog">
+        <MappingFragment StoreEntitySet="PriceHistoryLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PriceDate" ColumnName="PriceDate" />
+          <ScalarProperty Name="HistoryActionId" ColumnName="HistoryActionId" />
+          <ScalarProperty Name="HistoryStatusId" ColumnName="HistoryStatusId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceHistoryReturns">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.PriceHistoryReturns">
+        <MappingFragment StoreEntitySet="PriceHistoryReturns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="PriceReturn" ColumnName="PriceReturn" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RatingType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RatingType">
+        <MappingFragment StoreEntitySet="RatingType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rights">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Rights">
+        <MappingFragment StoreEntitySet="Rights">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowDefaultCashflow">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowDefaultCashflow">
+        <MappingFragment StoreEntitySet="RiskCashflowDefaultCashflow">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskcashflowDefaultIsinId" ColumnName="RiskcashflowDefaultIsinId" />
+          <ScalarProperty Name="CashflowDate" ColumnName="CashflowDate" />
+          <ScalarProperty Name="Coupon" ColumnName="Coupon" />
+          <ScalarProperty Name="Cashflow" ColumnName="Cashflow" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Loss" ColumnName="Loss" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowDefaultInputParameter">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowDefaultInputParameter">
+        <MappingFragment StoreEntitySet="RiskCashflowDefaultInputParameter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="SettleDate" ColumnName="SettleDate" />
+          <ScalarProperty Name="MortgageFaceAmount" ColumnName="MortgageFaceAmount" />
+          <ScalarProperty Name="ScenarioName" ColumnName="ScenarioName" />
+          <ScalarProperty Name="AssumptionName" ColumnName="AssumptionName" />
+          <ScalarProperty Name="MortgagePrepaySpeed" ColumnName="MortgagePrepaySpeed" />
+          <ScalarProperty Name="MortgagePrepayType" ColumnName="MortgagePrepayType" />
+          <ScalarProperty Name="PrepaySpeedVector" ColumnName="PrepaySpeedVector" />
+          <ScalarProperty Name="DefaultPercent" ColumnName="DefaultPercent" />
+          <ScalarProperty Name="DefaultType" ColumnName="DefaultType" />
+          <ScalarProperty Name="DefaultSpeedVector" ColumnName="DefaultSpeedVector" />
+          <ScalarProperty Name="LossSeverity" ColumnName="LossSeverity" />
+          <ScalarProperty Name="RecoveryLag" ColumnName="RecoveryLag" />
+          <ScalarProperty Name="ApplyForwardRate" ColumnName="ApplyForwardRate" />
+          <ScalarProperty Name="InsuranceWarp" ColumnName="InsuranceWarp" />
+          <ScalarProperty Name="MortgageIndexUsedSubPerSettle" ColumnName="MortgageIndexUsedSubPerSettle" />
+          <ScalarProperty Name="AlloyDynamicCashflowCalculations" ColumnName="AlloyDynamicCashflowCalculations" />
+          <ScalarProperty Name="SpreadAdjuster" ColumnName="SpreadAdjuster" />
+          <ScalarProperty Name="RecoveryAdjuster" ColumnName="RecoveryAdjuster" />
+          <ScalarProperty Name="SpreadMultiplier" ColumnName="SpreadMultiplier" />
+          <ScalarProperty Name="RecoveryMultiplier" ColumnName="RecoveryMultiplier" />
+          <ScalarProperty Name="Recovery" ColumnName="Recovery" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowDefaultIsin">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowDefaultIsin">
+        <MappingFragment StoreEntitySet="RiskCashflowDefaultIsin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowDetail">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowDetail">
+        <MappingFragment StoreEntitySet="RiskCashflowDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CashflowParameterRundId" ColumnName="CashflowParameterRundId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="CashflowDate" ColumnName="CashflowDate" />
+          <ScalarProperty Name="Coupon" ColumnName="Coupon" />
+          <ScalarProperty Name="Cashflow" ColumnName="Cashflow" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Loss" ColumnName="Loss" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowExecution">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowExecution">
+        <MappingFragment StoreEntitySet="RiskCashflowExecution">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ExecutionStartTime" ColumnName="ExecutionStartTime" />
+          <ScalarProperty Name="ExecutionEndTime" ColumnName="ExecutionEndTime" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowExecutionRun">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowExecutionRun">
+        <MappingFragment StoreEntitySet="RiskCashflowExecutionRun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskCashflowExecutionId" ColumnName="RiskCashflowExecutionId" />
+          <ScalarProperty Name="RiskCashflowInputParameterId" ColumnName="RiskCashflowInputParameterId" />
+          <ScalarProperty Name="RiskcashflowDefaultIsinId" ColumnName="RiskcashflowDefaultIsinId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowFieldDescription">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowFieldDescription">
+        <MappingFragment StoreEntitySet="RiskCashflowFieldDescription">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CashflowFieldName" ColumnName="CashflowFieldName" />
+          <ScalarProperty Name="CashflowFieldBloombergName" ColumnName="CashflowFieldBloombergName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowFieldProperty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowFieldProperty">
+        <MappingFragment StoreEntitySet="RiskCashflowFieldProperty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="RiskCashflowFieldDescriptionId" ColumnName="RiskCashflowFieldDescriptionId" />
+          <ScalarProperty Name="RiskCashflowFieldValue" ColumnName="RiskCashflowFieldValue" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowInputParameter">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowInputParameter">
+        <MappingFragment StoreEntitySet="RiskCashflowInputParameter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="SettleDate" ColumnName="SettleDate" />
+          <ScalarProperty Name="MortgageFaceAmount" ColumnName="MortgageFaceAmount" />
+          <ScalarProperty Name="ScenarioName" ColumnName="ScenarioName" />
+          <ScalarProperty Name="AssumptionName" ColumnName="AssumptionName" />
+          <ScalarProperty Name="MortgagePrepaySpeed" ColumnName="MortgagePrepaySpeed" />
+          <ScalarProperty Name="MortgagePrepayType" ColumnName="MortgagePrepayType" />
+          <ScalarProperty Name="PrepaySpeedVector" ColumnName="PrepaySpeedVector" />
+          <ScalarProperty Name="DefaultPercent" ColumnName="DefaultPercent" />
+          <ScalarProperty Name="DefaultType" ColumnName="DefaultType" />
+          <ScalarProperty Name="DefaultSpeedVector" ColumnName="DefaultSpeedVector" />
+          <ScalarProperty Name="LossSeverity" ColumnName="LossSeverity" />
+          <ScalarProperty Name="RecoveryLag" ColumnName="RecoveryLag" />
+          <ScalarProperty Name="ApplyForwardRate" ColumnName="ApplyForwardRate" />
+          <ScalarProperty Name="InsuranceWarp" ColumnName="InsuranceWarp" />
+          <ScalarProperty Name="MortgageIndexUsedSubPerSettle" ColumnName="MortgageIndexUsedSubPerSettle" />
+          <ScalarProperty Name="AlloyDynamicCashflowCalculations" ColumnName="AlloyDynamicCashflowCalculations" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowInputParameterDefaults">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowInputParameterDefaults">
+        <MappingFragment StoreEntitySet="RiskCashflowInputParameterDefaults">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="SpreadShift" ColumnName="SpreadShift" />
+          <ScalarProperty Name="SpreadMultiplier" ColumnName="SpreadMultiplier" />
+          <ScalarProperty Name="RecoveryShift" ColumnName="RecoveryShift" />
+          <ScalarProperty Name="RecoveryMultiplier" ColumnName="RecoveryMultiplier" />
+          <ScalarProperty Name="Recovery" ColumnName="Recovery" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowInputParameterNightly">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowInputParameterNightly">
+        <MappingFragment StoreEntitySet="RiskCashflowInputParameterNightly">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="SettleDate" ColumnName="SettleDate" />
+          <ScalarProperty Name="MortgageFaceAmount" ColumnName="MortgageFaceAmount" />
+          <ScalarProperty Name="ScenarioName" ColumnName="ScenarioName" />
+          <ScalarProperty Name="AssumptionName" ColumnName="AssumptionName" />
+          <ScalarProperty Name="MortgagePrepaySpeed" ColumnName="MortgagePrepaySpeed" />
+          <ScalarProperty Name="MortgagePrepayType" ColumnName="MortgagePrepayType" />
+          <ScalarProperty Name="PrepaySpeedVector" ColumnName="PrepaySpeedVector" />
+          <ScalarProperty Name="DefaultPercent" ColumnName="DefaultPercent" />
+          <ScalarProperty Name="DefaultType" ColumnName="DefaultType" />
+          <ScalarProperty Name="DefaultSpeedVector" ColumnName="DefaultSpeedVector" />
+          <ScalarProperty Name="LossSeverity" ColumnName="LossSeverity" />
+          <ScalarProperty Name="RecoveryLag" ColumnName="RecoveryLag" />
+          <ScalarProperty Name="ApplyForwardRate" ColumnName="ApplyForwardRate" />
+          <ScalarProperty Name="InsuranceWarp" ColumnName="InsuranceWarp" />
+          <ScalarProperty Name="MortgageIndexUsedSubPerSettle" ColumnName="MortgageIndexUsedSubPerSettle" />
+          <ScalarProperty Name="AlloyDynamicCashflowCalculations" ColumnName="AlloyDynamicCashflowCalculations" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowIsinProperty">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowIsinProperty">
+        <MappingFragment StoreEntitySet="RiskCashflowIsinProperty">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="RiskCashflowIsinPropertyDescriptionId" ColumnName="RiskCashflowIsinPropertyDescriptionId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowIsinPropertyDescription">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowIsinPropertyDescription">
+        <MappingFragment StoreEntitySet="RiskCashflowIsinPropertyDescription">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskCashflowResult">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskCashflowResult">
+        <MappingFragment StoreEntitySet="RiskCashflowResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskCashflowExecutionRunId" ColumnName="RiskCashflowExecutionRunId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Spread0" ColumnName="Spread0" />
+          <ScalarProperty Name="PresentValue" ColumnName="PresentValue" />
+          <ScalarProperty Name="SpreadShiftUpVariance" ColumnName="SpreadShiftUpVariance" />
+          <ScalarProperty Name="SpreadShiftDownVariance" ColumnName="SpreadShiftDownVariance" />
+          <ScalarProperty Name="SpreadMultiplierVariance" ColumnName="SpreadMultiplierVariance" />
+          <ScalarProperty Name="RecoveryShiftDownVariance" ColumnName="RecoveryShiftDownVariance" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionSimulationType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionSimulationType">
+        <MappingFragment StoreEntitySet="RiskExecutionSimulationType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTask">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTask">
+        <MappingFragment StoreEntitySet="RiskExecutionTask">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ExecutionStartTime" ColumnName="ExecutionStartTime" />
+          <ScalarProperty Name="ExecutionEndTime" ColumnName="ExecutionEndTime" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskCreditShiftRun">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskCreditShiftRun">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskCreditShiftRun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Cusip" ColumnName="Cusip" />
+          <ScalarProperty Name="CreditSpread" ColumnName="CreditSpread" />
+          <ScalarProperty Name="Recovery" ColumnName="Recovery" />
+          <ScalarProperty Name="Wal" ColumnName="Wal" />
+          <ScalarProperty Name="PoolExpectedLossDifference" ColumnName="PoolExpectedLossDifference" />
+          <ScalarProperty Name="SeniorExpectedLoss" ColumnName="SeniorExpectedLoss" />
+          <ScalarProperty Name="MezzExpectedLoss" ColumnName="MezzExpectedLoss" />
+          <ScalarProperty Name="JuniorExpectedLoss" ColumnName="JuniorExpectedLoss" />
+          <ScalarProperty Name="SeniorExpectedPresentValueLoss" ColumnName="SeniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="MezzExpectedPresentValueLoss" ColumnName="MezzExpectedPresentValueLoss" />
+          <ScalarProperty Name="JuniorExpectedPresentValueLoss" ColumnName="JuniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="RiskExecutionTaskInputParameterRunId" ColumnName="RiskExecutionTaskInputParameterRunId" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskExecutionType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskExecutionType">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskExecutionType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskInputParameter">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskInputParameter">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskInputParameter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+          <ScalarProperty Name="IntraIndustry" ColumnName="IntraIndustry" />
+          <ScalarProperty Name="CrossIndustry" ColumnName="CrossIndustry" />
+          <ScalarProperty Name="NumberOfSimulations" ColumnName="NumberOfSimulations" />
+          <ScalarProperty Name="SwapRateRange" ColumnName="SwapRateRange" />
+          <ScalarProperty Name="SeniorSize" ColumnName="SeniorSize" />
+          <ScalarProperty Name="MezzSize" ColumnName="MezzSize" />
+          <ScalarProperty Name="JuniorSize" ColumnName="JuniorSize" />
+          <ScalarProperty Name="SimulationTypeId" ColumnName="SimulationTypeId" />
+          <ScalarProperty Name="SpreadMultiplier" ColumnName="SpreadMultiplier" />
+          <ScalarProperty Name="SpreadShift" ColumnName="SpreadShift" />
+          <ScalarProperty Name="RecoveryMultiplier" ColumnName="RecoveryMultiplier" />
+          <ScalarProperty Name="RecoveryShift" ColumnName="RecoveryShift" />
+          <ScalarProperty Name="WALMultiplier" ColumnName="WALMultiplier" />
+          <ScalarProperty Name="WALShift" ColumnName="WALShift" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskInputParameterNightly">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskInputParameterNightly">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskInputParameterNightly">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+          <ScalarProperty Name="IntraIndustry" ColumnName="IntraIndustry" />
+          <ScalarProperty Name="CrossIndustry" ColumnName="CrossIndustry" />
+          <ScalarProperty Name="NumberOfSimulations" ColumnName="NumberOfSimulations" />
+          <ScalarProperty Name="SwapRateRange" ColumnName="SwapRateRange" />
+          <ScalarProperty Name="SeniorSize" ColumnName="SeniorSize" />
+          <ScalarProperty Name="MezzSize" ColumnName="MezzSize" />
+          <ScalarProperty Name="JuniorSize" ColumnName="JuniorSize" />
+          <ScalarProperty Name="SimulationTypeId" ColumnName="SimulationTypeId" />
+          <ScalarProperty Name="SpreadMultiplier" ColumnName="SpreadMultiplier" />
+          <ScalarProperty Name="SpreadShift" ColumnName="SpreadShift" />
+          <ScalarProperty Name="RecoveryMultiplier" ColumnName="RecoveryMultiplier" />
+          <ScalarProperty Name="RecoveryShift" ColumnName="RecoveryShift" />
+          <ScalarProperty Name="WALMultiplier" ColumnName="WALMultiplier" />
+          <ScalarProperty Name="WALShift" ColumnName="WALShift" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskInputParameterRun">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskInputParameterRun">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskInputParameterRun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskId" ColumnName="RiskExecutionTaskId" />
+          <ScalarProperty Name="RiskExecutionTaskInputParametersId" ColumnName="RiskExecutionTaskInputParametersId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskPortfolioDetail">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskPortfolioDetail">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskPortfolioDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskInputParameterRunId" ColumnName="RiskExecutionTaskInputParameterRunId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="IndustryCode" ColumnName="IndustryCode" />
+          <ScalarProperty Name="CreditSpread" ColumnName="CreditSpread" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Recovery" ColumnName="Recovery" />
+          <ScalarProperty Name="MaturityDate" ColumnName="MaturityDate" />
+          <ScalarProperty Name="WAL" ColumnName="WAL" />
+          <ScalarProperty Name="Intensity" ColumnName="Intensity" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskResult">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskResult">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SwapRate" ColumnName="SwapRate" />
+          <ScalarProperty Name="NumberOfAssets" ColumnName="NumberOfAssets" />
+          <ScalarProperty Name="AverageRecovery" ColumnName="AverageRecovery" />
+          <ScalarProperty Name="PoolExpectedLoss" ColumnName="PoolExpectedLoss" />
+          <ScalarProperty Name="SeniorExpectedLoss" ColumnName="SeniorExpectedLoss" />
+          <ScalarProperty Name="MezzExpectedLoss" ColumnName="MezzExpectedLoss" />
+          <ScalarProperty Name="JuniorExpectedLoss" ColumnName="JuniorExpectedLoss" />
+          <ScalarProperty Name="SeniorExpectedPresentValueLoss" ColumnName="SeniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="MezzExpectedPresentValueLoss" ColumnName="MezzExpectedPresentValueLoss" />
+          <ScalarProperty Name="JuniorExpectedPresentValueLoss" ColumnName="JuniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="RiskExecutionTaskInputParameterRunId" ColumnName="RiskExecutionTaskInputParameterRunId" />
+          <ScalarProperty Name="RiskExecutionTaskExecutionTypeId" ColumnName="RiskExecutionTaskExecutionTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskRun">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskRun">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskRun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ExecutionRun" ColumnName="ExecutionRun" />
+          <ScalarProperty Name="RiskExecutionTaskInputParameterRunId" ColumnName="RiskExecutionTaskInputParameterRunId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskRunResult">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskRunResult">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskRunResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskRunId" ColumnName="RiskExecutionTaskRunId" />
+          <ScalarProperty Name="PoolExpectedLoss" ColumnName="PoolExpectedLoss" />
+          <ScalarProperty Name="SeniorExpectedLoss" ColumnName="SeniorExpectedLoss" />
+          <ScalarProperty Name="MezzExpectedLoss" ColumnName="MezzExpectedLoss" />
+          <ScalarProperty Name="JuniorExpectedLoss" ColumnName="JuniorExpectedLoss" />
+          <ScalarProperty Name="SeniorExpectedPresentValueLoss" ColumnName="SeniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="MezzExpectedPresentValueLoss" ColumnName="MezzExpectedPresentValueLoss" />
+          <ScalarProperty Name="JuniorExpectedPresentValueLoss" ColumnName="JuniorExpectedPresentValueLoss" />
+          <ScalarProperty Name="RiskExecutionTaskExecutionTypeId" ColumnName="RiskExecutionTaskExecutionTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskValuationRunDetail">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetail">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskValuationRunDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskRunId" ColumnName="RiskExecutionTaskRunId" />
+          <ScalarProperty Name="Uniform" ColumnName="Uniform" />
+          <ScalarProperty Name="StandardNormal" ColumnName="StandardNormal" />
+          <ScalarProperty Name="CorrelatedNormal" ColumnName="CorrelatedNormal" />
+          <ScalarProperty Name="CorrelatedUniform" ColumnName="CorrelatedUniform" />
+          <ScalarProperty Name="DefaultIntensity" ColumnName="DefaultIntensity" />
+          <ScalarProperty Name="DefaultTime" ColumnName="DefaultTime" />
+          <ScalarProperty Name="DefaultPercentage" ColumnName="DefaultPercentage" />
+          <ScalarProperty Name="SumDefaultPercentage" ColumnName="SumDefaultPercentage" />
+          <ScalarProperty Name="InverseStandardNormal" ColumnName="InverseStandardNormal" />
+          <ScalarProperty Name="InverseCorrelatedNormal" ColumnName="InverseCorrelatedNormal" />
+          <ScalarProperty Name="InverseCorrelatedUniform" ColumnName="InverseCorrelatedUniform" />
+          <ScalarProperty Name="InverseDefaultIntensity" ColumnName="InverseDefaultIntensity" />
+          <ScalarProperty Name="InverseDefaultTime" ColumnName="InverseDefaultTime" />
+          <ScalarProperty Name="InverseDefaultPercentage" ColumnName="InverseDefaultPercentage" />
+          <ScalarProperty Name="InverseSumDefaultPercentage" ColumnName="InverseSumDefaultPercentage" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskValuationRunDetailCreditShift">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetailCreditShift">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskValuationRunDetailCreditShift">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskRunId" ColumnName="RiskExecutionTaskRunId" />
+          <ScalarProperty Name="Uniform" ColumnName="Uniform" />
+          <ScalarProperty Name="StandardNormal" ColumnName="StandardNormal" />
+          <ScalarProperty Name="CorrelatedNormal" ColumnName="CorrelatedNormal" />
+          <ScalarProperty Name="CorrelatedUniform" ColumnName="CorrelatedUniform" />
+          <ScalarProperty Name="DefaultIntensity" ColumnName="DefaultIntensity" />
+          <ScalarProperty Name="DefaultTime" ColumnName="DefaultTime" />
+          <ScalarProperty Name="DefaultPercentage" ColumnName="DefaultPercentage" />
+          <ScalarProperty Name="SumDefaultPercentage" ColumnName="SumDefaultPercentage" />
+          <ScalarProperty Name="InverseStandardNormal" ColumnName="InverseStandardNormal" />
+          <ScalarProperty Name="InverseCorrelatedNormal" ColumnName="InverseCorrelatedNormal" />
+          <ScalarProperty Name="InverseCorrelatedUniform" ColumnName="InverseCorrelatedUniform" />
+          <ScalarProperty Name="InverseDefaultIntensity" ColumnName="InverseDefaultIntensity" />
+          <ScalarProperty Name="InverseDefaultTime" ColumnName="InverseDefaultTime" />
+          <ScalarProperty Name="InverseDefaultPercentage" ColumnName="InverseDefaultPercentage" />
+          <ScalarProperty Name="InverseSumDefaultPercentage" ColumnName="InverseSumDefaultPercentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskExecutionTaskValuationRunDetailResult">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskExecutionTaskValuationRunDetailResult">
+        <MappingFragment StoreEntitySet="RiskExecutionTaskValuationRunDetailResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskRunId" ColumnName="RiskExecutionTaskRunId" />
+          <ScalarProperty Name="SeniorDefaultTime" ColumnName="SeniorDefaultTime" />
+          <ScalarProperty Name="MezzDefaultTime" ColumnName="MezzDefaultTime" />
+          <ScalarProperty Name="JuniorDefaultTime" ColumnName="JuniorDefaultTime" />
+          <ScalarProperty Name="SeniorSwapResult" ColumnName="SeniorSwapResult" />
+          <ScalarProperty Name="MezzSwapResult" ColumnName="MezzSwapResult" />
+          <ScalarProperty Name="JuniorSwapResult" ColumnName="JuniorSwapResult" />
+          <ScalarProperty Name="SeniorSwapRate" ColumnName="SeniorSwapRate" />
+          <ScalarProperty Name="MezzSwapRate" ColumnName="MezzSwapRate" />
+          <ScalarProperty Name="JuniorSwapRate" ColumnName="JuniorSwapRate" />
+          <ScalarProperty Name="SeniorPercentage" ColumnName="SeniorPercentage" />
+          <ScalarProperty Name="MezzPercentage" ColumnName="MezzPercentage" />
+          <ScalarProperty Name="JuniorPercentage" ColumnName="JuniorPercentage" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskPool">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskPool">
+        <MappingFragment StoreEntitySet="RiskPool">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="PoolValue" ColumnName="PoolValue" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="InitialPoolValue" ColumnName="InitialPoolValue" />
+          <ScalarProperty Name="Amortisation" ColumnName="Amortisation" />
+          <ScalarProperty Name="Losses" ColumnName="Losses" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskPoolDetail">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskPoolDetail">
+        <MappingFragment StoreEntitySet="RiskPoolDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="IndustryCode" ColumnName="IndustryCode" />
+          <ScalarProperty Name="CreditSpread" ColumnName="CreditSpread" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Recovery" ColumnName="Recovery" />
+          <ScalarProperty Name="Maturity" ColumnName="Maturity" />
+          <ScalarProperty Name="Wal" ColumnName="Wal" />
+          <ScalarProperty Name="Intensity" ColumnName="Intensity" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskPoolDetailAmortisation">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskPoolDetailAmortisation">
+        <MappingFragment StoreEntitySet="RiskPoolDetailAmortisation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="OriginalNotional" ColumnName="OriginalNotional" />
+          <ScalarProperty Name="CurrentLosses" ColumnName="CurrentLosses" />
+          <ScalarProperty Name="Amortisation" ColumnName="Amortisation" />
+          <ScalarProperty Name="PercentageAdjuster" ColumnName="PercentageAdjuster" />
+          <ScalarProperty Name="AdjustedAmortisation" ColumnName="AdjustedAmortisation" />
+          <ScalarProperty Name="AdjustedLosses" ColumnName="AdjustedLosses" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiskPoolResult">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RiskPoolResult">
+        <MappingFragment StoreEntitySet="RiskPoolResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RiskExecutionTaskInputParameterRunId" ColumnName="RiskExecutionTaskInputParameterRunId" />
+          <ScalarProperty Name="PoolValue" ColumnName="PoolValue" />
+          <ScalarProperty Name="SeniorTranching" ColumnName="SeniorTranching" />
+          <ScalarProperty Name="MezzTranching" ColumnName="MezzTranching" />
+          <ScalarProperty Name="JuniorTranching" ColumnName="JuniorTranching" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rules">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Rules">
+        <MappingFragment StoreEntitySet="Rules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="RuleTypeId" ColumnName="RuleTypeId" />
+          <ScalarProperty Name="MaxPercentageExposureIssuers" ColumnName="MaxPercentageExposureIssuers" />
+          <ScalarProperty Name="MaxPercentageExposureNumberOfIssuers" ColumnName="MaxPercentageExposureNumberOfIssuers" />
+          <ScalarProperty Name="MaxPercentageExposureNonFinancialCorporate" ColumnName="MaxPercentageExposureNonFinancialCorporate" />
+          <ScalarProperty Name="MaxPercentageExposureCounterParty" ColumnName="MaxPercentageExposureCounterParty" />
+          <ScalarProperty Name="MaxPercentageExposureNumberOfCounterparties" ColumnName="MaxPercentageExposureNumberOfCounterparties" />
+          <ScalarProperty Name="MaxPercentageEmergingMarkets" ColumnName="MaxPercentageEmergingMarkets" />
+          <ScalarProperty Name="MaxPercentageEquitySecurities" ColumnName="MaxPercentageEquitySecurities" />
+          <ScalarProperty Name="MaxPercentageCommodityAssets" ColumnName="MaxPercentageCommodityAssets" />
+          <ScalarProperty Name="MaxPercentageSecurityConcentration" ColumnName="MaxPercentageSecurityConcentration" />
+          <ScalarProperty Name="MaxPercentageSecurityConcentrationNumberOfSecurities" ColumnName="MaxPercentageSecurityConcentrationNumberOfSecurities" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RuleType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.RuleType">
+        <MappingFragment StoreEntitySet="RuleType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Schedule">
+        <MappingFragment StoreEntitySet="Schedule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="ScheculeType" ColumnName="ScheculeType" />
+          <ScalarProperty Name="ExecutionTime" ColumnName="ExecutionTime" />
+          <ScalarProperty Name="ExecuteNow" ColumnName="ExecuteNow" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduledCashFlow">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ScheduledCashFlow">
+        <MappingFragment StoreEntitySet="ScheduledCashFlow">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="TradeReference" ColumnName="TradeReference" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="IsoCode" ColumnName="IsoCode" />
+          <ScalarProperty Name="PNR" ColumnName="PNR" />
+          <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+          <ScalarProperty Name="Reconciled" ColumnName="Reconciled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduledCashFlowHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ScheduledCashFlowHistory">
+        <MappingFragment StoreEntitySet="ScheduledCashFlowHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ScheduledCashFlowHistoryDate" ColumnName="ScheduledCashFlowHistoryDate" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="TradeReference" ColumnName="TradeReference" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="IsoCode" ColumnName="IsoCode" />
+          <ScalarProperty Name="SecurityPeriodId" ColumnName="SecurityPeriodId" />
+          <ScalarProperty Name="PNR" ColumnName="PNR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleExecutionErrorLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ScheduleExecutionErrorLog">
+        <MappingFragment StoreEntitySet="ScheduleExecutionErrorLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ScheduleExecutionQueueId" ColumnName="ScheduleExecutionQueueId" />
+          <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+          <ScalarProperty Name="Error" ColumnName="Error" />
+          <ScalarProperty Name="Stacktrace" ColumnName="Stacktrace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleExecutionQueue">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ScheduleExecutionQueue">
+        <MappingFragment StoreEntitySet="ScheduleExecutionQueue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ScheduleId" ColumnName="ScheduleId" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="ExecutionDate" ColumnName="ExecutionDate" />
+          <ScalarProperty Name="DateExecuted" ColumnName="DateExecuted" />
+          <ScalarProperty Name="ExecuteNow" ColumnName="ExecuteNow" />
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMaster">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMaster">
+        <MappingFragment StoreEntitySet="SecurityMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="BloombergID" ColumnName="BloombergID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Cusip" ColumnName="Cusip" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Type2" ColumnName="Type2" />
+          <ScalarProperty Name="Type3" ColumnName="Type3" />
+          <ScalarProperty Name="BondCalendar" ColumnName="BondCalendar" />
+          <ScalarProperty Name="BondPayGap" ColumnName="BondPayGap" />
+          <ScalarProperty Name="Callable" ColumnName="Callable" />
+          <ScalarProperty Name="CallTrigger" ColumnName="CallTrigger" />
+          <ScalarProperty Name="CDSAccrualDays" ColumnName="CDSAccrualDays" />
+          <ScalarProperty Name="CDSPayCalendar" ColumnName="CDSPayCalendar" />
+          <ScalarProperty Name="CDSPayGap" ColumnName="CDSPayGap" />
+          <ScalarProperty Name="CollateralPoolFactor" ColumnName="CollateralPoolFactor" />
+          <ScalarProperty Name="CouponFrequency" ColumnName="CouponFrequency" />
+          <ScalarProperty Name="CouponIndex" ColumnName="CouponIndex" />
+          <ScalarProperty Name="CouponType" ColumnName="CouponType" />
+          <ScalarProperty Name="DCF" ColumnName="DCF" />
+          <ScalarProperty Name="DeliveryType" ColumnName="DeliveryType" />
+          <ScalarProperty Name="FloatFixingDays" ColumnName="FloatFixingDays" />
+          <ScalarProperty Name="NonAccrual" ColumnName="NonAccrual" />
+          <ScalarProperty Name="Rolldate" ColumnName="Rolldate" />
+          <ScalarProperty Name="Spread" ColumnName="Spread" />
+          <ScalarProperty Name="StepUpSpread" ColumnName="StepUpSpread" />
+          <ScalarProperty Name="TrancheOf" ColumnName="TrancheOf" />
+          <ScalarProperty Name="CoManager" ColumnName="CoManager" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="Manager" ColumnName="Manager" />
+          <ScalarProperty Name="MaturityDate" ColumnName="MaturityDate" />
+          <ScalarProperty Name="Servicer" ColumnName="Servicer" />
+          <ScalarProperty Name="Trustee" ColumnName="Trustee" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="FactorDate" ColumnName="FactorDate" />
+          <ScalarProperty Name="SecurityMasterGroupId" ColumnName="SecurityMasterGroupId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="SecurityMasterTypeId" ColumnName="SecurityMasterTypeId" />
+          <ScalarProperty Name="InitialSpread" ColumnName="InitialSpread" />
+          <ScalarProperty Name="IndustryTypeId" ColumnName="IndustryTypeId" />
+          <ScalarProperty Name="EmergingMarketsTypeId" ColumnName="EmergingMarketsTypeId" />
+          <ScalarProperty Name="PrivateSecurity" ColumnName="PrivateSecurity" />
+          <ScalarProperty Name="PoolAssociated" ColumnName="PoolAssociated" />
+          <ScalarProperty Name="GenerateCashflows" ColumnName="GenerateCashflows" />
+          <ScalarProperty Name="DataProviderId" ColumnName="DataProviderId" />
+          <ScalarProperty Name="CountryOfRiskId" ColumnName="CountryOfRiskId" />
+          <ScalarProperty Name="FirstPaymentDate" ColumnName="FirstPaymentDate" />
+          <ScalarProperty Name="StrategyId" ColumnName="StrategyId" />
+          <ScalarProperty Name="InstrumentId" ColumnName="InstrumentId" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="PaidDown" ColumnName="PaidDown" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterExchangeHolidayLocation">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterExchangeHolidayLocation">
+        <MappingFragment StoreEntitySet="SecurityMasterExchangeHolidayLocation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="ExchangeHolidayLocationId" ColumnName="ExchangeHolidayLocationId" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterGlobalEthicalStandard">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterGlobalEthicalStandard">
+        <MappingFragment StoreEntitySet="SecurityMasterGlobalEthicalStandard">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="Issuer" ColumnName="Issuer" />
+          <ScalarProperty Name="BloombergDescription" ColumnName="BloombergDescription" />
+          <ScalarProperty Name="DateNotified" ColumnName="DateNotified" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertById" ColumnName="InsertById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterGlobalEthicalStandardFund">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterGlobalEthicalStandardFund">
+        <MappingFragment StoreEntitySet="SecurityMasterGlobalEthicalStandardFund">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="SecurityMasterGlobalEthicalStandardId" ColumnName="SecurityMasterGlobalEthicalStandardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterGroup">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterGroup">
+        <MappingFragment StoreEntitySet="SecurityMasterGroup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterInstrument">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterInstrument">
+        <MappingFragment StoreEntitySet="SecurityMasterInstrument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterNotification">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterNotification">
+        <MappingFragment StoreEntitySet="SecurityMasterNotification">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="NotificationDate" ColumnName="NotificationDate" />
+          <ScalarProperty Name="RollDate" ColumnName="RollDate" />
+          <ScalarProperty Name="FactorUpdate" ColumnName="FactorUpdate" />
+          <ScalarProperty Name="NewIsin" ColumnName="NewIsin" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterRegion">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterRegion">
+        <MappingFragment StoreEntitySet="SecurityMasterRegion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterRestrictedList">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterRestrictedList">
+        <MappingFragment StoreEntitySet="SecurityMasterRestrictedList">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="ReasonAdded" ColumnName="ReasonAdded" />
+          <ScalarProperty Name="DateRemoved" ColumnName="DateRemoved" />
+          <ScalarProperty Name="ReasonRemoved" ColumnName="ReasonRemoved" />
+          <ScalarProperty Name="AdditionalNotes" ColumnName="AdditionalNotes" />
+          <ScalarProperty Name="AddedByUserId" ColumnName="AddedByUserId" />
+          <ScalarProperty Name="RemovedByUserId" ColumnName="RemovedByUserId" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterRiskPoolMapping">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterRiskPoolMapping">
+        <MappingFragment StoreEntitySet="SecurityMasterRiskPoolMapping">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="RiskPoolId" ColumnName="RiskPoolId" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterSensitivityReport">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterSensitivityReport">
+        <MappingFragment StoreEntitySet="SecurityMasterSensitivityReport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SecurityMasterId" ColumnName="SecurityMasterId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EquityTypeId" ColumnName="EquityTypeId" />
+          <ScalarProperty Name="SeniorDebitOutstanding" ColumnName="SeniorDebitOutstanding" />
+          <ScalarProperty Name="RatingTypeId" ColumnName="RatingTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterStrategy">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterStrategy">
+        <MappingFragment StoreEntitySet="SecurityMasterStrategy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityMasterType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SecurityMasterType">
+        <MappingFragment StoreEntitySet="SecurityMasterType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareClass">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareClass">
+        <MappingFragment StoreEntitySet="ShareClass">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="PerformanceFee" ColumnName="PerformanceFee" />
+          <ScalarProperty Name="PerformanceFeeFrequency" ColumnName="PerformanceFeeFrequency" />
+          <ScalarProperty Name="ManagementFee" ColumnName="ManagementFee" />
+          <ScalarProperty Name="ManagementFeeFrequency" ColumnName="ManagementFeeFrequency" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="InsertDatetime" ColumnName="InsertDatetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareClassPerformanceSummary">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareClassPerformanceSummary">
+        <MappingFragment StoreEntitySet="ShareClassPerformanceSummary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SummaryDate" ColumnName="SummaryDate" />
+          <ScalarProperty Name="ShareClassId" ColumnName="ShareClassId" />
+          <ScalarProperty Name="Nav" ColumnName="Nav" />
+          <ScalarProperty Name="NavPerUnit" ColumnName="NavPerUnit" />
+          <ScalarProperty Name="Gav" ColumnName="Gav" />
+          <ScalarProperty Name="GavPerUnit" ColumnName="GavPerUnit" />
+          <ScalarProperty Name="NavMonthToDate" ColumnName="NavMonthToDate" />
+          <ScalarProperty Name="NavQuarterToDate" ColumnName="NavQuarterToDate" />
+          <ScalarProperty Name="NavYearToDate" ColumnName="NavYearToDate" />
+          <ScalarProperty Name="NavLiveToDate" ColumnName="NavLiveToDate" />
+          <ScalarProperty Name="GavMonthToDate" ColumnName="GavMonthToDate" />
+          <ScalarProperty Name="GavQuarterToDate" ColumnName="GavQuarterToDate" />
+          <ScalarProperty Name="GavYearToDate" ColumnName="GavYearToDate" />
+          <ScalarProperty Name="GavLiveToDate" ColumnName="GavLiveToDate" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareSeries">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareSeries">
+        <MappingFragment StoreEntitySet="ShareSeries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="ShareClassId" ColumnName="ShareClassId" />
+          <ScalarProperty Name="NavPerUnit" ColumnName="NavPerUnit" />
+          <ScalarProperty Name="GavPerUnit" ColumnName="GavPerUnit" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="EffectiveFrom" ColumnName="EffectiveFrom" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ActiveSummary" ColumnName="ActiveSummary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareSeriesAmount">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareSeriesAmount">
+        <MappingFragment StoreEntitySet="ShareSeriesAmount">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShareSeriesId" ColumnName="ShareSeriesId" />
+          <ScalarProperty Name="ShareSeriesNavDate" ColumnName="ShareSeriesNavDate" />
+          <ScalarProperty Name="Nav" ColumnName="Nav" />
+          <ScalarProperty Name="NavPerUnit" ColumnName="NavPerUnit" />
+          <ScalarProperty Name="NavMonthToDate" ColumnName="NavMonthToDate" />
+          <ScalarProperty Name="NavQuarterToDate" ColumnName="NavQuarterToDate" />
+          <ScalarProperty Name="NavYearToDate" ColumnName="NavYearToDate" />
+          <ScalarProperty Name="NavLiveToDate" ColumnName="NavLiveToDate" />
+          <ScalarProperty Name="GavPerUnit" ColumnName="GavPerUnit" />
+          <ScalarProperty Name="GavMonthToDate" ColumnName="GavMonthToDate" />
+          <ScalarProperty Name="GavQuarterToDate" ColumnName="GavQuarterToDate" />
+          <ScalarProperty Name="GavYearToDate" ColumnName="GavYearToDate" />
+          <ScalarProperty Name="GavLiveToDate" ColumnName="GavLiveToDate" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareSeriesInvestor">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareSeriesInvestor">
+        <MappingFragment StoreEntitySet="ShareSeriesInvestor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShareSeriesId" ColumnName="ShareSeriesId" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareSeriesPerformanceSummary">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareSeriesPerformanceSummary">
+        <MappingFragment StoreEntitySet="ShareSeriesPerformanceSummary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShareSeriesId" ColumnName="ShareSeriesId" />
+          <ScalarProperty Name="SummaryDate" ColumnName="SummaryDate" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+          <ScalarProperty Name="ShareSeriesNav" ColumnName="ShareSeriesNav" />
+          <ScalarProperty Name="ShareSeriesNavPerShare" ColumnName="ShareSeriesNavPerShare" />
+          <ScalarProperty Name="ShareSeriesGav" ColumnName="ShareSeriesGav" />
+          <ScalarProperty Name="ShareSeriesGavPerShare" ColumnName="ShareSeriesGavPerShare" />
+          <ScalarProperty Name="CrystalisedPerfromanceAmount" ColumnName="CrystalisedPerfromanceAmount" />
+          <ScalarProperty Name="UncrystalisedPerfromanceAmount" ColumnName="UncrystalisedPerfromanceAmount" />
+          <ScalarProperty Name="CrystalisedPerfromancePerShare" ColumnName="CrystalisedPerfromancePerShare" />
+          <ScalarProperty Name="UncrystalisedPerfromancePerShare" ColumnName="UncrystalisedPerfromancePerShare" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+          <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareSeriesSummary">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.ShareSeriesSummary">
+        <MappingFragment StoreEntitySet="ShareSeriesSummary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShareSeriesId" ColumnName="ShareSeriesId" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubscriptionRedemption">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SubscriptionRedemption">
+        <MappingFragment StoreEntitySet="SubscriptionRedemption">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="ShareSeriesId" ColumnName="ShareSeriesId" />
+          <ScalarProperty Name="SettlementDate" ColumnName="SettlementDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="SubscriptionRedemptionTypeId" ColumnName="SubscriptionRedemptionTypeId" />
+          <ScalarProperty Name="SharePrice" ColumnName="SharePrice" />
+          <ScalarProperty Name="NumberOfShares" ColumnName="NumberOfShares" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="RetentionPercentage" ColumnName="RetentionPercentage" />
+          <ScalarProperty Name="InsertedBy" ColumnName="InsertedBy" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubscriptionRedemptionType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.SubscriptionRedemptionType">
+        <MappingFragment StoreEntitySet="SubscriptionRedemptionType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Task">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Task">
+        <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TaskGroupId" ColumnName="TaskGroupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskExecutionErrorLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TaskExecutionErrorLog">
+        <MappingFragment StoreEntitySet="TaskExecutionErrorLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TaskExecutionQueueId" ColumnName="TaskExecutionQueueId" />
+          <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+          <ScalarProperty Name="Error" ColumnName="Error" />
+          <ScalarProperty Name="StackTrace" ColumnName="StackTrace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskExecutionQueue">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TaskExecutionQueue">
+        <MappingFragment StoreEntitySet="TaskExecutionQueue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="ExecutionDate" ColumnName="ExecutionDate" />
+          <ScalarProperty Name="DateExecuted" ColumnName="DateExecuted" />
+          <ScalarProperty Name="ParentTrigger" ColumnName="ParentTrigger" />
+          <ScalarProperty Name="ExecuteNow" ColumnName="ExecuteNow" />
+          <ScalarProperty Name="DateEntered" ColumnName="DateEntered" />
+          <ScalarProperty Name="Param1" ColumnName="Param1" />
+          <ScalarProperty Name="Param2" ColumnName="Param2" />
+          <ScalarProperty Name="Param3" ColumnName="Param3" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TaskGroupId" ColumnName="TaskGroupId" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="FileByte" ColumnName="FileByte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskExecutionStatus">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TaskExecutionStatus">
+        <MappingFragment StoreEntitySet="TaskExecutionStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskGroup">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TaskGroup">
+        <MappingFragment StoreEntitySet="TaskGroup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TickerMapping">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TickerMapping">
+        <MappingFragment StoreEntitySet="TickerMapping">
+          <ScalarProperty Name="CouponIndex" ColumnName="CouponIndex" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="ResetDays" ColumnName="ResetDays" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeBlueSky">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeBlueSky">
+        <MappingFragment StoreEntitySet="TradeBlueSky">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="TradeBlueSkyApproved" ColumnName="TradeBlueSkyApproved" />
+          <ScalarProperty Name="TradeBlueSkyApprovedDate" ColumnName="TradeBlueSkyApprovedDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeExtractionContact">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeExtractionContact">
+        <MappingFragment StoreEntitySet="TradeExtractionContact">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ContactEmailAddress" ColumnName="ContactEmailAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeExtractionLog">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeExtractionLog">
+        <MappingFragment StoreEntitySet="TradeExtractionLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+          <ScalarProperty Name="TradeExtractionTypeId" ColumnName="TradeExtractionTypeId" />
+          <ScalarProperty Name="ExtractionDate" ColumnName="ExtractionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeExtractionStatus">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeExtractionStatus">
+        <MappingFragment StoreEntitySet="TradeExtractionStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeExtractionType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeExtractionType">
+        <MappingFragment StoreEntitySet="TradeExtractionType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeHistory">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeHistory">
+        <MappingFragment StoreEntitySet="TradeHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TradeHistoryDate" ColumnName="TradeHistoryDate" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="BuySell" ColumnName="BuySell" />
+          <ScalarProperty Name="TradeDate" ColumnName="TradeDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="SettlementDate" ColumnName="SettlementDate" />
+          <ScalarProperty Name="SettlementType" ColumnName="SettlementType" />
+          <ScalarProperty Name="CounterpartySalesContact" ColumnName="CounterpartySalesContact" />
+          <ScalarProperty Name="StepInorOutCpty" ColumnName="StepInorOutCpty" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CDSSpread" ColumnName="CDSSpread" />
+          <ScalarProperty Name="TradeFlat" ColumnName="TradeFlat" />
+          <ScalarProperty Name="FeeSettleDate" ColumnName="FeeSettleDate" />
+          <ScalarProperty Name="RecapConfirmed" ColumnName="RecapConfirmed" />
+          <ScalarProperty Name="CMBSConvention" ColumnName="CMBSConvention" />
+          <ScalarProperty Name="InterestCap" ColumnName="InterestCap" />
+          <ScalarProperty Name="CapType" ColumnName="CapType" />
+          <ScalarProperty Name="StepUpApplicable" ColumnName="StepUpApplicable" />
+          <ScalarProperty Name="DRDApplicable" ColumnName="DRDApplicable" />
+          <ScalarProperty Name="AdditionalICE" ColumnName="AdditionalICE" />
+          <ScalarProperty Name="FO_Comments" ColumnName="FO_Comments" />
+          <ScalarProperty Name="BO_Comments" ColumnName="BO_Comments" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerFee" ColumnName="BrokerFee" />
+          <ScalarProperty Name="BrokerFeeType" ColumnName="BrokerFeeType" />
+          <ScalarProperty Name="BrokerFeeSettlementDate" ColumnName="BrokerFeeSettlementDate" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="AdministratorFileSent" ColumnName="AdministratorFileSent" />
+          <ScalarProperty Name="AdministratorFileDateTime" ColumnName="AdministratorFileDateTime" />
+          <ScalarProperty Name="CustodianFileSent" ColumnName="CustodianFileSent" />
+          <ScalarProperty Name="CustodianFileDateTime" ColumnName="CustodianFileDateTime" />
+          <ScalarProperty Name="LocalNetAmount" ColumnName="LocalNetAmount" />
+          <ScalarProperty Name="BaseNetAmount" ColumnName="BaseNetAmount" />
+          <ScalarProperty Name="SettlementAmount" ColumnName="SettlementAmount" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="DeliveryType" ColumnName="DeliveryType" />
+          <ScalarProperty Name="TraderId" ColumnName="TraderId" />
+          <ScalarProperty Name="OperationsId" ColumnName="OperationsId" />
+          <ScalarProperty Name="TradeTypeId" ColumnName="TradeTypeId" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="CounterPartyId" ColumnName="CounterPartyId" />
+          <ScalarProperty Name="StepInOrOutCounterPartyId" ColumnName="StepInOrOutCounterPartyId" />
+          <ScalarProperty Name="AccrueFromDate" ColumnName="AccrueFromDate" />
+          <ScalarProperty Name="RecapConfirmedUpdateDateTime" ColumnName="RecapConfirmedUpdateDateTime" />
+          <ScalarProperty Name="TradeCreatedDateTime" ColumnName="TradeCreatedDateTime" />
+          <ScalarProperty Name="TradeCancelledDateTime" ColumnName="TradeCancelledDateTime" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="InitialMarginPercentage" ColumnName="InitialMarginPercentage" />
+          <ScalarProperty Name="InitialMarginAmount" ColumnName="InitialMarginAmount" />
+          <ScalarProperty Name="SubStatus" ColumnName="SubStatus" />
+          <ScalarProperty Name="TradeUnwind" ColumnName="TradeUnwind" />
+          <ScalarProperty Name="FXRate" ColumnName="FXRate" />
+          <ScalarProperty Name="OperationsTradeId" ColumnName="OperationsTradeId" />
+          <ScalarProperty Name="FundAccountId" ColumnName="FundAccountId" />
+          <ScalarProperty Name="NovationTradeReference" ColumnName="NovationTradeReference" />
+          <ScalarProperty Name="OriginalTradeDate" ColumnName="OriginalTradeDate" />
+          <ScalarProperty Name="RiskRetentionCompliant" ColumnName="RiskRetentionCompliant" />
+          <ScalarProperty Name="RiskRetentionCompliantSource" ColumnName="RiskRetentionCompliantSource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trades">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Trades">
+        <MappingFragment StoreEntitySet="Trades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Isin" ColumnName="Isin" />
+          <ScalarProperty Name="BuySell" ColumnName="BuySell" />
+          <ScalarProperty Name="TradeDate" ColumnName="TradeDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="SettlementDate" ColumnName="SettlementDate" />
+          <ScalarProperty Name="SettlementType" ColumnName="SettlementType" />
+          <ScalarProperty Name="CounterpartySalesContact" ColumnName="CounterpartySalesContact" />
+          <ScalarProperty Name="StepInorOutCpty" ColumnName="StepInorOutCpty" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CDSSpread" ColumnName="CDSSpread" />
+          <ScalarProperty Name="TradeFlat" ColumnName="TradeFlat" />
+          <ScalarProperty Name="FeeSettleDate" ColumnName="FeeSettleDate" />
+          <ScalarProperty Name="RecapConfirmed" ColumnName="RecapConfirmed" />
+          <ScalarProperty Name="CMBSConvention" ColumnName="CMBSConvention" />
+          <ScalarProperty Name="InterestCap" ColumnName="InterestCap" />
+          <ScalarProperty Name="CapType" ColumnName="CapType" />
+          <ScalarProperty Name="StepUpApplicable" ColumnName="StepUpApplicable" />
+          <ScalarProperty Name="DRDApplicable" ColumnName="DRDApplicable" />
+          <ScalarProperty Name="AdditionalICE" ColumnName="AdditionalICE" />
+          <ScalarProperty Name="FO_Comments" ColumnName="FO_Comments" />
+          <ScalarProperty Name="BO_Comments" ColumnName="BO_Comments" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerFee" ColumnName="BrokerFee" />
+          <ScalarProperty Name="BrokerFeeType" ColumnName="BrokerFeeType" />
+          <ScalarProperty Name="BrokerFeeSettlementDate" ColumnName="BrokerFeeSettlementDate" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="AdministratorFileSent" ColumnName="AdministratorFileSent" />
+          <ScalarProperty Name="AdministratorFileDateTime" ColumnName="AdministratorFileDateTime" />
+          <ScalarProperty Name="CustodianFileSent" ColumnName="CustodianFileSent" />
+          <ScalarProperty Name="CustodianFileDateTime" ColumnName="CustodianFileDateTime" />
+          <ScalarProperty Name="LocalNetAmount" ColumnName="LocalNetAmount" />
+          <ScalarProperty Name="BaseNetAmount" ColumnName="BaseNetAmount" />
+          <ScalarProperty Name="SettlementAmount" ColumnName="SettlementAmount" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="DeliveryType" ColumnName="DeliveryType" />
+          <ScalarProperty Name="TraderId" ColumnName="TraderId" />
+          <ScalarProperty Name="OperationsId" ColumnName="OperationsId" />
+          <ScalarProperty Name="TradeTypeId" ColumnName="TradeTypeId" />
+          <ScalarProperty Name="FundId" ColumnName="FundId" />
+          <ScalarProperty Name="CounterpartyId" ColumnName="CounterpartyId" />
+          <ScalarProperty Name="StepInOrOutCounterpartyId" ColumnName="StepInOrOutCounterpartyId" />
+          <ScalarProperty Name="AccrueFromDate" ColumnName="AccrueFromDate" />
+          <ScalarProperty Name="RecapConfirmedUpdateDateTime" ColumnName="RecapConfirmedUpdateDateTime" />
+          <ScalarProperty Name="TradeCreatedDateTime" ColumnName="TradeCreatedDateTime" />
+          <ScalarProperty Name="TradeCancelledDateTime" ColumnName="TradeCancelledDateTime" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="InitialMarginPercentage" ColumnName="InitialMarginPercentage" />
+          <ScalarProperty Name="InitialMarginAmount" ColumnName="InitialMarginAmount" />
+          <ScalarProperty Name="SubStatus" ColumnName="SubStatus" />
+          <ScalarProperty Name="TradeUnwind" ColumnName="TradeUnwind" />
+          <ScalarProperty Name="FXRate" ColumnName="FXRate" />
+          <ScalarProperty Name="OperationsTradeId" ColumnName="OperationsTradeId" />
+          <ScalarProperty Name="FundAccountId" ColumnName="FundAccountId" />
+          <ScalarProperty Name="NovationTradeReference" ColumnName="NovationTradeReference" />
+          <ScalarProperty Name="OriginalTradeDate" ColumnName="OriginalTradeDate" />
+          <ScalarProperty Name="RiskRetentionCompliant" ColumnName="RiskRetentionCompliant" />
+          <ScalarProperty Name="RiskRetentionCompliantSource" ColumnName="RiskRetentionCompliantSource" />
+          <ScalarProperty Name="TradeExtractionStatusId" ColumnName="TradeExtractionStatusId" />
+          <ScalarProperty Name="RepurchaseDate" ColumnName="RepurchaseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeType">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeType">
+        <MappingFragment StoreEntitySet="TradeType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TradeTypeGroupId" ColumnName="TradeTypeGroupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeTypeGroup">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.TradeTypeGroup">
+        <MappingFragment StoreEntitySet="TradeTypeGroup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRights">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.UserRights">
+        <MappingFragment StoreEntitySet="UserRights">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RightId" ColumnName="RightId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="LastLoginDateTime" ColumnName="LastLoginDateTime" />
+          <ScalarProperty Name="UserStatusId" ColumnName="UserStatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserStatus">
+      <EntityTypeMapping TypeName="AstraInfrastructureModel.UserStatus">
+        <MappingFragment StoreEntitySet="UserStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="EmailBwicMonitorFilter" TypeName="AstraInfrastructureModel.EmailBwicMonitorFilter" StoreEntitySet="EmailBwicMonitorFilter">
+      <EndProperty Name="EmailBwicFilter">
+        <ScalarProperty Name="Id" ColumnName="EmailBwicFilterId" />
+      </EndProperty>
+      <EndProperty Name="EmailBwicMonitor">
+        <ScalarProperty Name="Id" ColumnName="EmailBwicMonitorId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TradeSubscriptionRedemption" TypeName="AstraInfrastructureModel.TradeSubscriptionRedemption" StoreEntitySet="TradeSubscriptionRedemption">
+      <EndProperty Name="SubscriptionRedemption">
+        <ScalarProperty Name="Id" ColumnName="SubscriptionRedemptionId" />
+      </EndProperty>
+      <EndProperty Name="Trades">
+        <ScalarProperty Name="Id" ColumnName="TradeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

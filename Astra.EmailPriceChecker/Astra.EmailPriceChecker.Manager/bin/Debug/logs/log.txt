@@ -1,0 +1,191 @@
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  30 2021-10-19 11:14:07,561 [3] - service starting
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker StartListening  89 2021-10-19 11:14:09,047 [3] - Started Timer
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  34 2021-10-19 11:14:09,047 [3] - started listening
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:14:18,185 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:14:18,295 [15] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:14:18,782 [14] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:14:18,919 [10] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:14:19,817 [16] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:14:53,855 [12] - New Email Found
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:05,420 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:07,660 [17] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:08,419 [13] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:10,030 [18] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:27,462 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:15:28,114 [10] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:17:30,786 [10] - New Email Found
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:20:12,811 [15] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:20:13,406 [21] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:20:13,416 [22] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  51 2021-10-19 11:20:14,779 [1] - service stopping now
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  53 2021-10-19 11:20:14,789 [1] - service stopped
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  30 2021-10-19 11:24:33,284 [3] - service starting
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker StartListening  89 2021-10-19 11:24:34,879 [3] - Started Timer
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  34 2021-10-19 11:24:34,880 [3] - started listening
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:24:40,637 [10] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:24:41,041 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:24:41,062 [13] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:25:14,582 [13] - New Email Found
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker NewEmailFound  183 2021-10-19 11:25:14,583 [13] - Found word: HRBR 2006-2 A
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker NewEmailFound  183 2021-10-19 11:25:14,584 [13] - Found word: HRBR 2006-2
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  160 2021-10-19 11:25:14,584 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  58 2021-10-19 11:25:14,629 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  69 2021-10-19 11:25:15,870 [13] - email sents
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:26:25,929 [13] - New Email Found
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:27:39,459 [10] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  51 2021-10-19 11:27:40,145 [1] - service stopping now
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  53 2021-10-19 11:27:40,154 [1] - service stopped
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  30 2021-10-19 11:31:54,213 [3] - service starting
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker StartListening  89 2021-10-19 11:31:55,615 [3] - Started Timer
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StartService  34 2021-10-19 11:31:55,615 [3] - started listening
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:32:00,719 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:32:01,255 [14] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:32:01,280 [10] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:32:33,240 [13] - New Email Found
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker NewEmailFound  183 2021-10-19 11:32:43,992 [13] - Found word: Test Security
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  160 2021-10-19 11:32:43,997 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  58 2021-10-19 11:32:44,035 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  69 2021-10-19 11:32:44,526 [13] - email sents
+ERROR C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  146 2021-10-19 11:32:44,551 [11] - some error in checking new emails
+Microsoft.Exchange.WebServices.Data.ServiceResponseException: The watermark is invalid.
+   at Microsoft.Exchange.WebServices.Data.ServiceResponse.InternalThrowIfNecessary()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.GetEvents(String subscriptionId, String watermark)
+   at Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents()
+   at Astra.EmailPriceChecker.EmailPriceChecker.CheckForNewMailItem() in C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs:line 121
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  135 2021-10-19 11:34:35,330 [13] - New Email Found
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker NewEmailFound  183 2021-10-19 11:34:35,331 [13] - Found word: Test Security
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  160 2021-10-19 11:34:35,331 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  58 2021-10-19 11:34:35,338 [13] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  69 2021-10-19 11:34:35,798 [13] - email sents
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker\EmailPriceChecker.cs Astra.EmailPriceChecker.EmailPriceChecker CheckForNewMailItem  160 2021-10-19 11:34:36,006 [10] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  58 2021-10-19 11:34:36,012 [10] - Sending Email
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\EmailManager.cs Astra.EmailPriceChecker.EmailManager.EmailManager SendNotificationEmail  69 2021-10-19 11:34:36,274 [10] - email sents
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  51 2021-10-19 11:35:57,341 [1] - service stopping now
+INFO C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Service\Service\ServiceRunner.cs Astra.EmailPriceChecker.Service.Service.ServiceRunner StopService  53 2021-10-19 11:35:57,343 [1] - service stopped

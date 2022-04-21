@@ -1,0 +1,10 @@
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\bin\Debug\Astra.EmailPriceChecker.Logger.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\bin\Debug\Astra.EmailPriceChecker.Logger.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\obj\Debug\Astra.EmailPriceChecker.Logger.csproj.CoreCompileInputs.cache
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\obj\Debug\Astra.EmailPriceChecker.Logger.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\obj\Debug\Astra.EmailPriceChecker.Logger.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\bin\Debug\log4net.config
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\bin\Debug\log4net.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\bin\Debug\log4net.xml
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\obj\Debug\Astra.EmailPriceChecker.Logger.csproj.CopyComplete
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.Logger\obj\Debug\Astra.EmailPriceChecker.Logger.csproj.AssemblyReference.cache

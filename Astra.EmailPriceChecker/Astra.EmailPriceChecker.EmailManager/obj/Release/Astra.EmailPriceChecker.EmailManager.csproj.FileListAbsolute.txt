@@ -1,0 +1,12 @@
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\Astra.EmailPriceChecker.EmailManager.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\Astra.EmailPriceChecker.EmailManager.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\Astra.EmailPriceChecker.Logger.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\Astra.EmailPriceChecker.Logger.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\obj\Release\Astra.EmailPriceChecker.EmailManager.csproj.AssemblyReference.cache
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\obj\Release\Astra.EmailPriceChecker.EmailManager.csproj.CoreCompileInputs.cache
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\obj\Release\Astra.EmailPriceChecker.EmailManager.csproj.CopyComplete
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\obj\Release\Astra.EmailPriceChecker.EmailManager.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\obj\Release\Astra.EmailPriceChecker.EmailManager.pdb
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\log4net.config
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\log4net.dll
+C:\Applications\Astra-Price-Checker\Astra.EmailPriceChecker\Astra.EmailPriceChecker.EmailManager\bin\Release\log4net.xml
